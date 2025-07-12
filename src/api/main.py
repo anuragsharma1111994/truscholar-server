@@ -233,8 +233,7 @@ def register_middleware(app: FastAPI) -> FastAPI:
     if settings.ENABLE_RATE_LIMITING:
         app.add_middleware(
             RateLimiterMiddleware,
-            rate_limit=settings.API_RATE_LIMIT,
-            rate_limit_period=settings.API_RATE_LIMIT_PERIOD,
+            requests_per_minute=settings.API_RATE_LIMIT,
         )
 
     # CORS middleware
