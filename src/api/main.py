@@ -233,8 +233,7 @@ def register_middleware(app: FastAPI) -> FastAPI:
     if settings.ENABLE_RATE_LIMITING:
         app.add_middleware(
             RateLimiterMiddleware,
-            rate_limit=settings.API_RATE_LIMIT,
-            rate_limit_period=settings.API_RATE_LIMIT_PERIOD,
+            requests_per_minute=settings.API_RATE_LIMIT,
         )
 
     # CORS middleware
@@ -280,52 +279,47 @@ def register_routers(app: FastAPI) -> FastAPI:
         FastAPI: Application with routers registered
     """
     # Import routers here to avoid circular imports
-    from src.routers import auth, careers, health, questions, reports, tests, users
+    from src.routers import auth, careers, health, questions, tests, users
 
     # API v1 routers
     api_prefix = settings.API_V1_PREFIX
 
     app.include_router(
-        health.router,
+        health,
         prefix=f"{api_prefix}/health",
         tags=["Health"],
     )
 
     app.include_router(
-        auth.router,
+        auth,
         prefix=f"{api_prefix}/auth",
         tags=["Authentication"],
     )
 
     app.include_router(
-        users.router,
+        users,
         prefix=f"{api_prefix}/users",
         tags=["Users"],
     )
 
     app.include_router(
-        tests.router,
+        tests,
         prefix=f"{api_prefix}/tests",
         tags=["Tests"],
     )
 
     app.include_router(
-        questions.router,
+        questions,
         prefix=f"{api_prefix}/questions",
         tags=["Questions"],
     )
 
     app.include_router(
-        careers.router,
+        careers,
         prefix=f"{api_prefix}/careers",
         tags=["Careers"],
     )
 
-    app.include_router(
-        reports.router,
-        prefix=f"{api_prefix}/reports",
-        tags=["Reports"],
-    )
 
     return app
 

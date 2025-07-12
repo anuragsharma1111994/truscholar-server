@@ -24,7 +24,7 @@ async def health_check():
     }
 
 @app.get("/test/careers")
-async def test_careers():
+async def careers_endpoint():
     """Test career endpoint with mock data."""
     mock_careers = [
         {
