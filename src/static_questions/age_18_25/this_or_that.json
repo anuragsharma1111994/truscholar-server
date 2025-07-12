@@ -1,0 +1,20 @@
+[
+  {
+    "question_text": "Which career focus appeals to you more?",
+    "option_a": {"text": "Working with technology and systems", "dimensions": {"R": 0.6, "I": 0.4}},
+    "option_b": {"text": "Working with people and relationships", "dimensions": {"S": 0.8, "E": 0.2}},
+    "dimensions": ["R", "I", "S", "E"]
+  },
+  {
+    "question_text": "Which work style do you prefer?",
+    "option_a": {"text": "Independent creative work", "dimensions": {"A": 0.8, "I": 0.2}},
+    "option_b": {"text": "Collaborative team projects", "dimensions": {"S": 0.6, "E": 0.4}},
+    "dimensions": ["A", "I", "S", "E"]
+  },
+  {
+    "question_text": "Which would you choose?",
+    "option_a": {"text": "Starting your own business", "dimensions": {"E": 0.9, "R": 0.1}},
+    "option_b": {"text": "Working in an established organization", "dimensions": {"C": 0.8, "S": 0.2}},
+    "dimensions": ["E", "R", "C", "S"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "question_text": "Design your ideal workday by arranging these tasks:",
+    "tasks": [
+      {"id": "task1", "title": "Technical problem solving", "description": "Fixing equipment or debugging code", "primary_dimension": "R", "secondary_dimensions": ["I"]},
+      {"id": "task2", "title": "Creative brainstorming", "description": "Designing concepts or content", "primary_dimension": "A", "secondary_dimensions": []},
+      {"id": "task3", "title": "Data analysis", "description": "Research and statistical analysis", "primary_dimension": "I", "secondary_dimensions": ["C"]},
+      {"id": "task4", "title": "Client meetings", "description": "Consulting with customers", "primary_dimension": "S", "secondary_dimensions": ["E"]},
+      {"id": "task5", "title": "Team leadership", "description": "Managing projects and people", "primary_dimension": "E", "secondary_dimensions": ["S"]},
+      {"id": "task6", "title": "Administrative tasks", "description": "Planning and documentation", "primary_dimension": "C", "secondary_dimensions": []},
+      {"id": "task7", "title": "Innovation session", "description": "Developing new ideas", "primary_dimension": "A", "secondary_dimensions": ["I"]},
+      {"id": "task8", "title": "Training others", "description": "Teaching or mentoring", "primary_dimension": "S", "secondary_dimensions": []},
+      {"id": "task9", "title": "Strategic planning", "description": "Business development", "primary_dimension": "E", "secondary_dimensions": ["I"]},
+      {"id": "task10", "title": "Quality control", "description": "Review and compliance", "primary_dimension": "C", "secondary_dimensions": ["R"]}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

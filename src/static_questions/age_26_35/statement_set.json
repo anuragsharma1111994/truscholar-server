@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Evaluate these statements about your career preferences:",
+    "statements": [
+      {"id": 1, "text": "I prefer roles where I can work with tools and see physical results", "dimension": "R"},
+      {"id": 2, "text": "Creative freedom is essential for my job satisfaction", "dimension": "A"},
+      {"id": 3, "text": "I thrive on intellectual challenges and complex problem-solving", "dimension": "I"},
+      {"id": 4, "text": "Mentoring and developing others is fulfilling to me", "dimension": "S"},
+      {"id": 5, "text": "I enjoy taking calculated risks and driving business growth", "dimension": "E"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E"]
+  },
+  {
+    "question_text": "Rate how these work values align with yours:",
+    "statements": [
+      {"id": 1, "text": "I value practical solutions over theoretical concepts", "dimension": "R"},
+      {"id": 2, "text": "Innovation and originality drive my work", "dimension": "A"},
+      {"id": 3, "text": "Data-driven decision making is crucial to me", "dimension": "I"},
+      {"id": 4, "text": "Building meaningful relationships at work is important", "dimension": "S"},
+      {"id": 5, "text": "I appreciate structured processes and clear hierarchies", "dimension": "C"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "C"]
+  }
+]

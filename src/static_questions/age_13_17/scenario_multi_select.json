@@ -1,0 +1,28 @@
+[
+  {
+    "question_text": "You're planning a perfect weekend. Which activities would you include? (Select all that apply)",
+    "scenario": "You have a completely free weekend with no homework or obligations. You can choose how to spend your time.",
+    "options": [
+      {"id": "a", "text": "Working on a DIY project or fixing something", "dimensions": {"R": 1.0}},
+      {"id": "b", "text": "Creating art, music, or writing stories", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Reading about interesting topics or doing experiments", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Hanging out with friends or helping in the community", "dimensions": {"S": 1.0}},
+      {"id": "e", "text": "Planning and organizing a party or event", "dimensions": {"E": 0.6, "C": 0.4}},
+      {"id": "f", "text": "Organizing your room or creating study schedules", "dimensions": {"C": 1.0}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "Which summer activities would you sign up for? (Select all that interest you)",
+    "scenario": "Your community center is offering various summer programs. You can choose multiple activities.",
+    "options": [
+      {"id": "a", "text": "Woodworking or robotics workshop", "dimensions": {"R": 0.9, "I": 0.1}},
+      {"id": "b", "text": "Art, music, or creative writing camp", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Science or coding camp", "dimensions": {"I": 0.9, "C": 0.1}},
+      {"id": "d", "text": "Volunteer work or peer mentoring", "dimensions": {"S": 1.0}},
+      {"id": "e", "text": "Entrepreneurship or leadership program", "dimensions": {"E": 1.0}},
+      {"id": "f", "text": "Office skills or computer applications course", "dimensions": {"C": 0.9, "I": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

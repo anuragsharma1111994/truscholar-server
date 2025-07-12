@@ -1,0 +1,18 @@
+[
+  {
+    "question_text": "Plan your ideal school day by dragging activities into time slots:",
+    "tasks": [
+      {"id": "task1", "title": "Hands-on workshop", "description": "Building or creating things", "primary_dimension": "R", "secondary_dimensions": []},
+      {"id": "task2", "title": "Art or music class", "description": "Creative expression time", "primary_dimension": "A", "secondary_dimensions": []},
+      {"id": "task3", "title": "Science lab", "description": "Experiments and research", "primary_dimension": "I", "secondary_dimensions": []},
+      {"id": "task4", "title": "Group project", "description": "Working with classmates", "primary_dimension": "S", "secondary_dimensions": ["E"]},
+      {"id": "task5", "title": "Leadership activity", "description": "Leading a team or club", "primary_dimension": "E", "secondary_dimensions": ["S"]},
+      {"id": "task6", "title": "Organizing time", "description": "Planning and scheduling", "primary_dimension": "C", "secondary_dimensions": []},
+      {"id": "task7", "title": "Problem solving", "description": "Math or logic puzzles", "primary_dimension": "I", "secondary_dimensions": ["C"]},
+      {"id": "task8", "title": "Helping others", "description": "Tutoring or mentoring", "primary_dimension": "S", "secondary_dimensions": []},
+      {"id": "task9", "title": "Creative project", "description": "Design or storytelling", "primary_dimension": "A", "secondary_dimensions": []},
+      {"id": "task10", "title": "Physical activity", "description": "Sports or building", "primary_dimension": "R", "secondary_dimensions": []}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

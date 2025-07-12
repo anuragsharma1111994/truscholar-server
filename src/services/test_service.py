@@ -11,7 +11,6 @@ from typing import Any, Dict, List, Optional, Tuple
 from bson import ObjectId
 
 from src.core.config import get_settings
-from src.core.settings import business_settings, cache_settings, feature_flags
 from src.database.mongodb import MongoDB
 from src.database.redis_client import RedisClient
 from src.models.answer import Answer
@@ -497,12 +496,18 @@ class TestService:
             }
         )
 
-        if daily_tests >= business_settings.MAX_TEST_ATTEMPTS_PER_DAY:
+        if daily_tests >= 3:  # Max test attempts per day
             raise BusinessLogicError("Daily test limit reached")
 
     def _determine_age_group(self, age: int) -> AgeGroup:
         """Determine age group from age."""
-        for age_group, (min_age, max_age) in business_settings.AGE_GROUP_RANGES.items():
+        age_group_ranges = {
+            "13-17": (13, 17),
+            "18-25": (18, 25),
+            "26-35": (26, 35),
+            "36+": (36, 99)
+        }
+        for age_group, (min_age, max_age) in age_group_ranges.items():
             if min_age <= age <= max_age:
                 return age_group
         raise ValueError(f"Age {age} is not supported")
@@ -523,7 +528,7 @@ class TestService:
         return await question_service.generate_test_questions(
             test_id=test.id,
             age_group=test.age_group,
-            distribution=business_settings.QUESTION_DISTRIBUTION
+            distribution={"standard": 70, "scenario": 20, "interactive": 10}  # Question distribution
         )
 
     async def _get_question(self, question_id: str, test_id: str) -> Question:
@@ -661,15 +666,15 @@ class TestService:
 
     async def _cache_test(self, test: Test) -> None:
         """Cache test data."""
-        if not feature_flags.ENABLE_CACHE:
+        if not settings.ENABLE_CACHE:
             return
 
         cache_key = f"test:{test.id}"
-        await self.cache.set_json(cache_key, test.to_dict(), ttl=cache_settings.TTL_TEST_PROGRESS)
+        await self.cache.set_json(cache_key, test.to_dict(), ttl=7200)  # 2 hour TTL
 
     async def _get_cached_test(self, test_id: str) -> Optional[Test]:
         """Get cached test data."""
-        if not feature_flags.ENABLE_CACHE:
+        if not settings.ENABLE_CACHE:
             return None
 
         cache_key = f"test:{test_id}"
@@ -678,16 +683,16 @@ class TestService:
 
     async def _cache_questions(self, test_id: str, questions: List[Question]) -> None:
         """Cache questions for a test."""
-        if not feature_flags.ENABLE_CACHE:
+        if not settings.ENABLE_CACHE:
             return
 
         cache_key = f"test:{test_id}:questions"
         questions_data = [q.to_dict() for q in questions]
-        await self.cache.set_json(cache_key, questions_data, ttl=cache_settings.TTL_TEST_QUESTIONS)
+        await self.cache.set_json(cache_key, questions_data, ttl=3600)  # 1 hour TTL
 
     async def _get_cached_questions(self, test_id: str) -> Optional[List[Question]]:
         """Get cached questions for a test."""
-        if not feature_flags.ENABLE_CACHE:
+        if not settings.ENABLE_CACHE:
             return None
 
         cache_key = f"test:{test_id}:questions"

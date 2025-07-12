@@ -1,0 +1,18 @@
+[
+  {
+    "question_text": "Plan your ideal work week by scheduling these activities:",
+    "tasks": [
+      {"id": "task1", "title": "Strategic planning", "description": "Setting goals and direction", "primary_dimension": "E", "secondary_dimensions": ["I"]},
+      {"id": "task2", "title": "Hands-on work", "description": "Direct project involvement", "primary_dimension": "R", "secondary_dimensions": []},
+      {"id": "task3", "title": "Creative development", "description": "Innovation and design", "primary_dimension": "A", "secondary_dimensions": []},
+      {"id": "task4", "title": "Data analysis", "description": "Research and insights", "primary_dimension": "I", "secondary_dimensions": ["C"]},
+      {"id": "task5", "title": "Team collaboration", "description": "Working with colleagues", "primary_dimension": "S", "secondary_dimensions": ["E"]},
+      {"id": "task6", "title": "Client engagement", "description": "External relationships", "primary_dimension": "S", "secondary_dimensions": ["E"]},
+      {"id": "task7", "title": "Process improvement", "description": "Optimizing workflows", "primary_dimension": "C", "secondary_dimensions": ["I"]},
+      {"id": "task8", "title": "Mentoring", "description": "Developing others", "primary_dimension": "S", "secondary_dimensions": []},
+      {"id": "task9", "title": "Financial planning", "description": "Budget and resources", "primary_dimension": "C", "secondary_dimensions": ["E"]},
+      {"id": "task10", "title": "Innovation time", "description": "Exploring new ideas", "primary_dimension": "A", "secondary_dimensions": ["I"]}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

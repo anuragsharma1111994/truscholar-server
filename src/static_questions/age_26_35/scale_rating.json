@@ -1,0 +1,22 @@
+[
+  {
+    "question_text": "How important is hands-on, practical work in your ideal career?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Not important",
+      "max": "Critical"
+    },
+    "dimensions": ["R"]
+  },
+  {
+    "question_text": "How much does creative autonomy influence your job satisfaction?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Minimal impact",
+      "max": "Essential factor"
+    },
+    "dimensions": ["A"]
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "software_engineer",
+    "title": "Software Engineer",
+    "category": "information_technology",
+    "description": "Design, develop, and maintain software applications and systems using programming languages and development tools.",
+    "raisec_profile": {
+      "R": 25,
+      "I": 85,
+      "A": 35,
+      "S": 20,
+      "E": 30,
+      "C": 70
+    },
+    "typical_tasks": [
+      "Write and debug code in various programming languages",
+      "Design software architecture and system components",
+      "Collaborate with cross-functional teams",
+      "Test and deploy software applications",
+      "Maintain and update existing systems",
+      "Document code and technical specifications"
+    ],
+    "work_environments": ["office", "remote", "hybrid"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Programming Languages",
+        "importance": 5,
+        "category": "technical",
+        "description": "Proficiency in languages like Python, Java, JavaScript, C++"
+      },
+      {
+        "name": "Problem Solving",
+        "importance": 5,
+        "category": "soft",
+        "description": "Ability to break down complex problems and create solutions"
+      },
+      {
+        "name": "Software Design",
+        "importance": 4,
+        "category": "technical",
+        "description": "Understanding of design patterns and architecture principles"
+      },
+      {
+        "name": "Version Control",
+        "importance": 4,
+        "category": "technical",
+        "description": "Git, SVN, and collaborative development practices"
+      },
+      {
+        "name": "Communication",
+        "importance": 3,
+        "category": "soft",
+        "description": "Ability to explain technical concepts to non-technical stakeholders"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 75000,
+      "median": 95000,
+      "experienced": 130000,
+      "top_percentile": 180000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 1500000,
+      "projected_growth_rate": 8.5,
+      "job_openings_annually": 165000,
+      "outlook": "rapidly_growing",
+      "competitiveness": 3,
+      "location": "United States"
+    },
+    "similar_careers": ["data_scientist", "web_developer", "systems_analyst"],
+    "is_emerging": false,
+    "automation_risk": 0.15,
+    "noc_code": "2173",
+    "onet_code": "15-1252.00"
+  },
+  {
+    "id": "registered_nurse",
+    "title": "Registered Nurse",
+    "category": "healthcare",
+    "description": "Provide patient care, administer medications, coordinate treatment plans, and educate patients and families about health conditions.",
+    "raisec_profile": {
+      "R": 40,
+      "I": 50,
+      "A": 20,
+      "S": 95,
+      "E": 35,
+      "C": 60
+    },
+    "typical_tasks": [
+      "Assess patient health conditions and symptoms",
+      "Administer medications and treatments",
+      "Monitor patient vital signs and responses",
+      "Collaborate with physicians and healthcare teams",
+      "Educate patients and families about care plans",
+      "Maintain accurate medical records"
+    ],
+    "work_environments": ["healthcare_facility", "office"],
+    "education_requirements": ["associate", "bachelor"],
+    "min_education_level": "associate",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Patient Care",
+        "importance": 5,
+        "category": "domain",
+        "description": "Compassionate and skilled patient interaction"
+      },
+      {
+        "name": "Clinical Skills",
+        "importance": 5,
+        "category": "technical",
+        "description": "Medical procedures, medication administration, assessment"
+      },
+      {
+        "name": "Communication",
+        "importance": 5,
+        "category": "soft",
+        "description": "Clear communication with patients, families, and medical teams"
+      },
+      {
+        "name": "Critical Thinking",
+        "importance": 4,
+        "category": "soft",
+        "description": "Quick decision-making in medical situations"
+      },
+      {
+        "name": "Emotional Resilience",
+        "importance": 4,
+        "category": "soft",
+        "description": "Managing stress and emotional demands of healthcare"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 62000,
+      "median": 77600,
+      "experienced": 95000,
+      "top_percentile": 116000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 3200000,
+      "projected_growth_rate": 6.0,
+      "job_openings_annually": 195000,
+      "outlook": "growing",
+      "competitiveness": 2,
+      "location": "United States"
+    },
+    "similar_careers": ["nurse_practitioner", "physician_assistant", "medical_assistant"],
+    "is_emerging": false,
+    "automation_risk": 0.08,
+    "noc_code": "3012",
+    "onet_code": "29-1141.00"
+  },
+  {
+    "id": "mechanical_engineer",
+    "title": "Mechanical Engineer",
+    "category": "engineering",
+    "description": "Design, develop, and test mechanical devices, engines, tools, and machines using engineering principles and problem-solving skills.",
+    "raisec_profile": {
+      "R": 90,
+      "I": 80,
+      "A": 25,
+      "S": 15,
+      "E": 40,
+      "C": 55
+    },
+    "typical_tasks": [
+      "Design mechanical systems and components",
+      "Conduct engineering analysis and simulations",
+      "Create technical drawings and specifications",
+      "Test prototypes and evaluate performance",
+      "Oversee manufacturing and production processes",
+      "Collaborate with interdisciplinary engineering teams"
+    ],
+    "work_environments": ["office", "factory", "laboratory"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "CAD Software",
+        "importance": 5,
+        "category": "technical",
+        "description": "AutoCAD, SolidWorks, CATIA for design work"
+      },
+      {
+        "name": "Engineering Analysis",
+        "importance": 5,
+        "category": "technical",
+        "description": "FEA, CFD, and other simulation tools"
+      },
+      {
+        "name": "Mathematics",
+        "importance": 4,
+        "category": "technical",
+        "description": "Calculus, differential equations, statistics"
+      },
+      {
+        "name": "Project Management",
+        "importance": 4,
+        "category": "soft",
+        "description": "Managing timelines, resources, and deliverables"
+      },
+      {
+        "name": "Material Science",
+        "importance": 4,
+        "category": "domain",
+        "description": "Understanding properties and applications of materials"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 68000,
+      "median": 88430,
+      "experienced": 115000,
+      "top_percentile": 142000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 320000,
+      "projected_growth_rate": 2.0,
+      "job_openings_annually": 20000,
+      "outlook": "stable",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["aerospace_engineer", "civil_engineer", "industrial_engineer"],
+    "is_emerging": false,
+    "automation_risk": 0.25,
+    "noc_code": "2132",
+    "onet_code": "17-2141.00"
+  },
+  {
+    "id": "graphic_designer",
+    "title": "Graphic Designer",
+    "category": "arts_culture",
+    "description": "Create visual concepts and designs for print and digital media to communicate ideas and captivate audiences.",
+    "raisec_profile": {
+      "R": 15,
+      "I": 30,
+      "A": 95,
+      "S": 25,
+      "E": 40,
+      "C": 45
+    },
+    "typical_tasks": [
+      "Create visual designs for marketing materials",
+      "Develop brand identity and style guides",
+      "Design websites, apps, and digital interfaces",
+      "Collaborate with clients and creative teams",
+      "Select appropriate colors, fonts, and imagery",
+      "Prepare files for print and digital production"
+    ],
+    "work_environments": ["office", "remote", "hybrid"],
+    "education_requirements": ["associate", "bachelor"],
+    "min_education_level": "associate",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Design Software",
+        "importance": 5,
+        "category": "technical",
+        "description": "Adobe Creative Suite (Photoshop, Illustrator, InDesign)"
+      },
+      {
+        "name": "Visual Design",
+        "importance": 5,
+        "category": "creative",
+        "description": "Color theory, typography, composition, layout"
+      },
+      {
+        "name": "Creativity",
+        "importance": 5,
+        "category": "soft",
+        "description": "Innovative thinking and artistic vision"
+      },
+      {
+        "name": "Client Communication",
+        "importance": 4,
+        "category": "soft",
+        "description": "Understanding client needs and presenting concepts"
+      },
+      {
+        "name": "Brand Strategy",
+        "importance": 3,
+        "category": "domain",
+        "description": "Understanding brand positioning and messaging"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 38000,
+      "median": 53380,
+      "experienced": 72000,
+      "top_percentile": 89210,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 290000,
+      "projected_growth_rate": 3.0,
+      "job_openings_annually": 23900,
+      "outlook": "stable",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["web_designer", "ux_designer", "art_director"],
+    "is_emerging": false,
+    "automation_risk": 0.35,
+    "noc_code": "5241",
+    "onet_code": "27-1024.00"
+  },
+  {
+    "id": "marketing_manager",
+    "title": "Marketing Manager",
+    "category": "business",
+    "description": "Plan and direct marketing policies and programs, identify potential customers, and develop pricing strategies.",
+    "raisec_profile": {
+      "R": 10,
+      "I": 40,
+      "A": 50,
+      "S": 45,
+      "E": 85,
+      "C": 60
+    },
+    "typical_tasks": [
+      "Develop marketing strategies and campaigns",
+      "Manage marketing budgets and resources",
+      "Analyze market trends and customer behavior",
+      "Oversee advertising and promotional activities",
+      "Lead marketing teams and coordinate projects",
+      "Monitor campaign performance and ROI"
+    ],
+    "work_environments": ["office", "hybrid", "remote"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "mid_level",
+    "key_skills": [
+      {
+        "name": "Marketing Strategy",
+        "importance": 5,
+        "category": "domain",
+        "description": "Developing comprehensive marketing plans and campaigns"
+      },
+      {
+        "name": "Leadership",
+        "importance": 5,
+        "category": "soft",
+        "description": "Managing teams and driving marketing initiatives"
+      },
+      {
+        "name": "Data Analysis",
+        "importance": 4,
+        "category": "technical",
+        "description": "Interpreting marketing metrics and customer data"
+      },
+      {
+        "name": "Digital Marketing",
+        "importance": 4,
+        "category": "technical",
+        "description": "SEO, SEM, social media, email marketing"
+      },
+      {
+        "name": "Communication",
+        "importance": 4,
+        "category": "soft",
+        "description": "Presenting ideas and collaborating across departments"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 55000,
+      "median": 142170,
+      "experienced": 185000,
+      "top_percentile": 250000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 278000,
+      "projected_growth_rate": 6.0,
+      "job_openings_annually": 31100,
+      "outlook": "growing",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["sales_manager", "advertising_manager", "brand_manager"],
+    "is_emerging": false,
+    "automation_risk": 0.20,
+    "noc_code": "0124",
+    "onet_code": "11-2021.00"
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "category": "information_technology",
+    "description": "Analyze complex data to help organizations make informed business decisions using statistical methods and machine learning.",
+    "raisec_profile": {
+      "R": 20,
+      "I": 95,
+      "A": 15,
+      "S": 25,
+      "E": 30,
+      "C": 75
+    },
+    "typical_tasks": [
+      "Collect and clean large datasets",
+      "Develop statistical models and algorithms",
+      "Create data visualizations and reports",
+      "Collaborate with business stakeholders",
+      "Implement machine learning solutions",
+      "Present findings to executive teams"
+    ],
+    "work_environments": ["office", "remote", "hybrid"],
+    "education_requirements": ["bachelor", "master", "doctoral"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Programming",
+        "importance": 5,
+        "category": "technical",
+        "description": "Python, R, SQL for data analysis and modeling"
+      },
+      {
+        "name": "Statistics",
+        "importance": 5,
+        "category": "technical",
+        "description": "Statistical analysis, hypothesis testing, experimental design"
+      },
+      {
+        "name": "Machine Learning",
+        "importance": 5,
+        "category": "technical",
+        "description": "Supervised and unsupervised learning algorithms"
+      },
+      {
+        "name": "Data Visualization",
+        "importance": 4,
+        "category": "technical",
+        "description": "Tableau, matplotlib, ggplot for creating insights"
+      },
+      {
+        "name": "Business Acumen",
+        "importance": 4,
+        "category": "soft",
+        "description": "Understanding business problems and translating to data questions"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 85000,
+      "median": 126830,
+      "experienced": 165000,
+      "top_percentile": 220000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 168000,
+      "projected_growth_rate": 35.0,
+      "job_openings_annually": 13500,
+      "outlook": "rapidly_growing",
+      "competitiveness": 5,
+      "location": "United States"
+    },
+    "similar_careers": ["machine_learning_engineer", "business_analyst", "statistician"],
+    "is_emerging": true,
+    "automation_risk": 0.10,
+    "noc_code": "2161",
+    "onet_code": "15-2051.00"
+  },
+  {
+    "id": "elementary_teacher",
+    "title": "Elementary School Teacher",
+    "category": "education",
+    "description": "Teach academic subjects to elementary school students and help develop their social and learning skills.",
+    "raisec_profile": {
+      "R": 10,
+      "I": 40,
+      "A": 60,
+      "S": 90,
+      "E": 35,
+      "C": 65
+    },
+    "typical_tasks": [
+      "Plan and deliver age-appropriate lessons",
+      "Assess student progress and provide feedback",
+      "Create engaging learning activities",
+      "Communicate with parents and guardians",
+      "Manage classroom behavior and environment",
+      "Collaborate with other teachers and staff"
+    ],
+    "work_environments": ["office"],
+    "education_requirements": ["bachelor"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Classroom Management",
+        "importance": 5,
+        "category": "domain",
+        "description": "Creating positive learning environments and managing student behavior"
+      },
+      {
+        "name": "Communication",
+        "importance": 5,
+        "category": "soft",
+        "description": "Clear communication with students, parents, and colleagues"
+      },
+      {
+        "name": "Patience",
+        "importance": 5,
+        "category": "soft",
+        "description": "Working with diverse learning styles and abilities"
+      },
+      {
+        "name": "Curriculum Development",
+        "importance": 4,
+        "category": "domain",
+        "description": "Creating and adapting lesson plans to meet learning objectives"
+      },
+      {
+        "name": "Technology Integration",
+        "importance": 3,
+        "category": "technical",
+        "description": "Using educational technology to enhance learning"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 40000,
+      "median": 60940,
+      "experienced": 78000,
+      "top_percentile": 99660,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 1500000,
+      "projected_growth_rate": 4.0,
+      "job_openings_annually": 123000,
+      "outlook": "stable",
+      "competitiveness": 2,
+      "location": "United States"
+    },
+    "similar_careers": ["middle_school_teacher", "special_education_teacher", "curriculum_specialist"],
+    "is_emerging": false,
+    "automation_risk": 0.05,
+    "noc_code": "4032",
+    "onet_code": "25-2021.00"
+  },
+  {
+    "id": "financial_advisor",
+    "title": "Financial Advisor",
+    "category": "business",
+    "description": "Provide financial guidance to individuals and businesses on investments, insurance, tax strategies, and retirement planning.",
+    "raisec_profile": {
+      "R": 5,
+      "I": 60,
+      "A": 15,
+      "S": 70,
+      "E": 80,
+      "C": 85
+    },
+    "typical_tasks": [
+      "Analyze clients' financial situations",
+      "Develop personalized financial plans",
+      "Recommend investment strategies",
+      "Monitor portfolio performance",
+      "Provide tax and estate planning advice",
+      "Build and maintain client relationships"
+    ],
+    "work_environments": ["office", "hybrid"],
+    "education_requirements": ["bachelor"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Financial Analysis",
+        "importance": 5,
+        "category": "technical",
+        "description": "Understanding financial markets, investments, and planning strategies"
+      },
+      {
+        "name": "Client Relations",
+        "importance": 5,
+        "category": "soft",
+        "description": "Building trust and maintaining long-term client relationships"
+      },
+      {
+        "name": "Sales",
+        "importance": 4,
+        "category": "soft",
+        "description": "Ability to present and sell financial products and services"
+      },
+      {
+        "name": "Regulatory Knowledge",
+        "importance": 4,
+        "category": "domain",
+        "description": "Understanding financial regulations and compliance requirements"
+      },
+      {
+        "name": "Communication",
+        "importance": 4,
+        "category": "soft",
+        "description": "Explaining complex financial concepts in simple terms"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 45000,
+      "median": 87850,
+      "experienced": 135000,
+      "top_percentile": 208000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 330000,
+      "projected_growth_rate": 5.0,
+      "job_openings_annually": 21600,
+      "outlook": "growing",
+      "competitiveness": 3,
+      "location": "United States"
+    },
+    "similar_careers": ["investment_advisor", "insurance_agent", "loan_officer"],
+    "is_emerging": false,
+    "automation_risk": 0.30,
+    "noc_code": "1114",
+    "onet_code": "13-2052.00"
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "information_technology",
+    "description": "Protect computer networks and systems from cyber threats by monitoring, detecting, and responding to security incidents.",
+    "raisec_profile": {
+      "R": 30,
+      "I": 85,
+      "A": 10,
+      "S": 20,
+      "E": 25,
+      "C": 80
+    },
+    "typical_tasks": [
+      "Monitor network traffic for security threats",
+      "Investigate security incidents and breaches",
+      "Implement security measures and protocols",
+      "Conduct vulnerability assessments",
+      "Develop incident response procedures",
+      "Train staff on security best practices"
+    ],
+    "work_environments": ["office", "remote", "hybrid"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Network Security",
+        "importance": 5,
+        "category": "technical",
+        "description": "Understanding network protocols, firewalls, and intrusion detection"
+      },
+      {
+        "name": "Incident Response",
+        "importance": 5,
+        "category": "technical",
+        "description": "Responding to and analyzing security incidents"
+      },
+      {
+        "name": "Risk Assessment",
+        "importance": 4,
+        "category": "domain",
+        "description": "Identifying and evaluating security vulnerabilities"
+      },
+      {
+        "name": "Security Tools",
+        "importance": 4,
+        "category": "technical",
+        "description": "SIEM, vulnerability scanners, penetration testing tools"
+      },
+      {
+        "name": "Attention to Detail",
+        "importance": 4,
+        "category": "soft",
+        "description": "Careful analysis of logs and security events"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 70000,
+      "median": 103590,
+      "experienced": 135000,
+      "top_percentile": 165920,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 131000,
+      "projected_growth_rate": 33.0,
+      "job_openings_annually": 16300,
+      "outlook": "rapidly_growing",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["information_security_manager", "penetration_tester", "security_consultant"],
+    "is_emerging": true,
+    "automation_risk": 0.12,
+    "noc_code": "2171",
+    "onet_code": "15-1212.00"
+  },
+  {
+    "id": "social_worker",
+    "title": "Social Worker",
+    "category": "social_services",
+    "description": "Help individuals, families, and communities overcome challenges and improve their well-being through counseling and resource coordination.",
+    "raisec_profile": {
+      "R": 5,
+      "I": 45,
+      "A": 25,
+      "S": 95,
+      "E": 30,
+      "C": 55
+    },
+    "typical_tasks": [
+      "Assess clients' needs and situations",
+      "Develop treatment and service plans",
+      "Provide counseling and support services",
+      "Connect clients with community resources",
+      "Advocate for clients' rights and needs",
+      "Document case progress and outcomes"
+    ],
+    "work_environments": ["office", "field"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Counseling",
+        "importance": 5,
+        "category": "domain",
+        "description": "Providing emotional support and therapeutic interventions"
+      },
+      {
+        "name": "Case Management",
+        "importance": 5,
+        "category": "domain",
+        "description": "Coordinating services and tracking client progress"
+      },
+      {
+        "name": "Empathy",
+        "importance": 5,
+        "category": "soft",
+        "description": "Understanding and connecting with clients' experiences"
+      },
+      {
+        "name": "Communication",
+        "importance": 4,
+        "category": "soft",
+        "description": "Active listening and clear communication with clients"
+      },
+      {
+        "name": "Crisis Intervention",
+        "importance": 4,
+        "category": "domain",
+        "description": "Managing emergency situations and providing immediate support"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 38000,
+      "median": 51760,
+      "experienced": 68000,
+      "top_percentile": 85820,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 713000,
+      "projected_growth_rate": 12.0,
+      "job_openings_annually": 78300,
+      "outlook": "rapidly_growing",
+      "competitiveness": 2,
+      "location": "United States"
+    },
+    "similar_careers": ["counselor", "therapist", "community_outreach_coordinator"],
+    "is_emerging": false,
+    "automation_risk": 0.03,
+    "noc_code": "4152",
+    "onet_code": "21-1021.00"
+  },
+  {
+    "id": "ux_designer",
+    "title": "UX Designer",
+    "category": "information_technology",
+    "description": "Research, design, and optimize user experiences for digital products and services to ensure usability and user satisfaction.",
+    "raisec_profile": {
+      "R": 10,
+      "I": 60,
+      "A": 85,
+      "S": 40,
+      "E": 35,
+      "C": 45
+    },
+    "typical_tasks": [
+      "Conduct user research and usability testing",
+      "Create wireframes, prototypes, and mockups",
+      "Design user interfaces and interaction flows",
+      "Collaborate with developers and product managers",
+      "Analyze user behavior and feedback",
+      "Iterate designs based on testing results"
+    ],
+    "work_environments": ["office", "remote", "hybrid"],
+    "education_requirements": ["bachelor"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "User Research",
+        "importance": 5,
+        "category": "domain",
+        "description": "Understanding user needs through interviews, surveys, and testing"
+      },
+      {
+        "name": "Design Tools",
+        "importance": 5,
+        "category": "technical",
+        "description": "Figma, Sketch, Adobe XD for creating designs and prototypes"
+      },
+      {
+        "name": "Prototyping",
+        "importance": 4,
+        "category": "technical",
+        "description": "Creating interactive prototypes to test design concepts"
+      },
+      {
+        "name": "Visual Design",
+        "importance": 4,
+        "category": "creative",
+        "description": "Typography, color, layout principles for interface design"
+      },
+      {
+        "name": "Collaboration",
+        "importance": 4,
+        "category": "soft",
+        "description": "Working effectively with cross-functional teams"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 60000,
+      "median": 85277,
+      "experienced": 115000,
+      "top_percentile": 148000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 95000,
+      "projected_growth_rate": 13.0,
+      "job_openings_annually": 8500,
+      "outlook": "rapidly_growing",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["ui_designer", "product_designer", "interaction_designer"],
+    "is_emerging": true,
+    "automation_risk": 0.20,
+    "noc_code": "5241",
+    "onet_code": "15-1255.00"
+  },
+  {
+    "id": "environmental_scientist",
+    "title": "Environmental Scientist",
+    "category": "science",
+    "description": "Study the environment and environmental problems to develop solutions for protecting human health and the natural world.",
+    "raisec_profile": {
+      "R": 70,
+      "I": 90,
+      "A": 20,
+      "S": 40,
+      "E": 25,
+      "C": 60
+    },
+    "typical_tasks": [
+      "Collect and analyze environmental data",
+      "Conduct field research and sampling",
+      "Assess environmental impact of projects",
+      "Develop environmental remediation plans",
+      "Write technical reports and proposals",
+      "Collaborate with government agencies and stakeholders"
+    ],
+    "work_environments": ["office", "field", "laboratory"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Data Analysis",
+        "importance": 5,
+        "category": "technical",
+        "description": "Statistical analysis of environmental data and trends"
+      },
+      {
+        "name": "Field Research",
+        "importance": 5,
+        "category": "technical",
+        "description": "Collecting samples and conducting environmental assessments"
+      },
+      {
+        "name": "Scientific Writing",
+        "importance": 4,
+        "category": "soft",
+        "description": "Communicating findings in technical reports and publications"
+      },
+      {
+        "name": "GIS/Remote Sensing",
+        "importance": 4,
+        "category": "technical",
+        "description": "Geographic information systems for spatial analysis"
+      },
+      {
+        "name": "Environmental Regulations",
+        "importance": 4,
+        "category": "domain",
+        "description": "Understanding environmental laws and compliance requirements"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 45000,
+      "median": 73230,
+      "experienced": 95000,
+      "top_percentile": 129530,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 92000,
+      "projected_growth_rate": 8.0,
+      "job_openings_annually": 9400,
+      "outlook": "growing",
+      "competitiveness": 3,
+      "location": "United States"
+    },
+    "similar_careers": ["conservation_scientist", "environmental_engineer", "hydrologist"],
+    "is_emerging": false,
+    "automation_risk": 0.18,
+    "noc_code": "2121",
+    "onet_code": "19-2041.00"
+  },
+  {
+    "id": "project_manager",
+    "title": "Project Manager",
+    "category": "business",
+    "description": "Plan, organize, and coordinate projects from initiation to completion, ensuring objectives are met within scope, time, and budget.",
+    "raisec_profile": {
+      "R": 15,
+      "I": 50,
+      "A": 25,
+      "S": 60,
+      "E": 80,
+      "C": 85
+    },
+    "typical_tasks": [
+      "Define project scope and objectives",
+      "Create project schedules and timelines",
+      "Coordinate team members and resources",
+      "Monitor project progress and risks",
+      "Communicate with stakeholders and clients",
+      "Ensure quality deliverables and outcomes"
+    ],
+    "work_environments": ["office", "hybrid", "remote"],
+    "education_requirements": ["bachelor"],
+    "min_education_level": "bachelor",
+    "experience_level": "mid_level",
+    "key_skills": [
+      {
+        "name": "Project Planning",
+        "importance": 5,
+        "category": "domain",
+        "description": "Developing comprehensive project plans and schedules"
+      },
+      {
+        "name": "Leadership",
+        "importance": 5,
+        "category": "soft",
+        "description": "Leading teams and driving project success"
+      },
+      {
+        "name": "Communication",
+        "importance": 5,
+        "category": "soft",
+        "description": "Clear communication with teams and stakeholders"
+      },
+      {
+        "name": "Risk Management",
+        "importance": 4,
+        "category": "domain",
+        "description": "Identifying and mitigating project risks"
+      },
+      {
+        "name": "Project Management Tools",
+        "importance": 4,
+        "category": "technical",
+        "description": "Microsoft Project, Jira, Asana, Trello"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 60000,
+      "median": 116000,
+      "experienced": 145000,
+      "top_percentile": 180000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 750000,
+      "projected_growth_rate": 7.0,
+      "job_openings_annually": 61600,
+      "outlook": "growing",
+      "competitiveness": 3,
+      "location": "United States"
+    },
+    "similar_careers": ["program_manager", "operations_manager", "business_analyst"],
+    "is_emerging": false,
+    "automation_risk": 0.25,
+    "noc_code": "0213",
+    "onet_code": "11-9021.00"
+  },
+  {
+    "id": "physical_therapist",
+    "title": "Physical Therapist",
+    "category": "healthcare",
+    "description": "Help patients improve mobility, relieve pain, and prevent or limit physical disabilities through therapeutic exercises and treatments.",
+    "raisec_profile": {
+      "R": 60,
+      "I": 55,
+      "A": 15,
+      "S": 85,
+      "E": 25,
+      "C": 40
+    },
+    "typical_tasks": [
+      "Evaluate patients' conditions and needs",
+      "Develop individualized treatment plans",
+      "Provide hands-on therapy and exercises",
+      "Educate patients about injury prevention",
+      "Monitor progress and adjust treatments",
+      "Collaborate with other healthcare professionals"
+    ],
+    "work_environments": ["healthcare_facility", "office"],
+    "education_requirements": ["doctoral"],
+    "min_education_level": "doctoral",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Clinical Assessment",
+        "importance": 5,
+        "category": "domain",
+        "description": "Evaluating patient conditions and functional abilities"
+      },
+      {
+        "name": "Manual Therapy",
+        "importance": 5,
+        "category": "technical",
+        "description": "Hands-on treatment techniques and therapeutic exercises"
+      },
+      {
+        "name": "Patient Education",
+        "importance": 4,
+        "category": "soft",
+        "description": "Teaching patients about their conditions and treatments"
+      },
+      {
+        "name": "Communication",
+        "importance": 4,
+        "category": "soft",
+        "description": "Clear communication with patients and healthcare teams"
+      },
+      {
+        "name": "Anatomy Knowledge",
+        "importance": 5,
+        "category": "domain",
+        "description": "Deep understanding of human anatomy and physiology"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 75000,
+      "median": 91010,
+      "experienced": 105000,
+      "top_percentile": 127110,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 239800,
+      "projected_growth_rate": 18.0,
+      "job_openings_annually": 15600,
+      "outlook": "rapidly_growing",
+      "competitiveness": 2,
+      "location": "United States"
+    },
+    "similar_careers": ["occupational_therapist", "sports_therapist", "rehabilitation_specialist"],
+    "is_emerging": false,
+    "automation_risk": 0.06,
+    "noc_code": "3142",
+    "onet_code": "29-1123.00"
+  },
+  {
+    "id": "renewable_energy_engineer",
+    "title": "Renewable Energy Engineer",
+    "category": "engineering",
+    "description": "Design and develop renewable energy systems like solar, wind, and hydroelectric power to create sustainable energy solutions.",
+    "raisec_profile": {
+      "R": 85,
+      "I": 80,
+      "A": 20,
+      "S": 25,
+      "E": 40,
+      "C": 50
+    },
+    "typical_tasks": [
+      "Design renewable energy systems",
+      "Conduct feasibility studies for energy projects",
+      "Optimize energy system performance",
+      "Develop energy storage solutions",
+      "Collaborate with environmental scientists",
+      "Ensure compliance with environmental regulations"
+    ],
+    "work_environments": ["office", "field", "laboratory"],
+    "education_requirements": ["bachelor", "master"],
+    "min_education_level": "bachelor",
+    "experience_level": "entry_level",
+    "key_skills": [
+      {
+        "name": "Energy Systems Design",
+        "importance": 5,
+        "category": "technical",
+        "description": "Designing efficient renewable energy systems"
+      },
+      {
+        "name": "Sustainability Analysis",
+        "importance": 5,
+        "category": "domain",
+        "description": "Evaluating environmental impact and sustainability"
+      },
+      {
+        "name": "Engineering Software",
+        "importance": 4,
+        "category": "technical",
+        "description": "CAD, simulation, and modeling software"
+      },
+      {
+        "name": "Project Management",
+        "importance": 4,
+        "category": "soft",
+        "description": "Managing renewable energy project development"
+      },
+      {
+        "name": "Regulatory Knowledge",
+        "importance": 4,
+        "category": "domain",
+        "description": "Understanding energy regulations and incentives"
+      }
+    ],
+    "salary_data": {
+      "currency": "USD",
+      "entry_level": 65000,
+      "median": 88430,
+      "experienced": 115000,
+      "top_percentile": 142000,
+      "location": "US National Average",
+      "last_updated": "2024-01-15"
+    },
+    "job_market": {
+      "employment_count": 45000,
+      "projected_growth_rate": 28.0,
+      "job_openings_annually": 4200,
+      "outlook": "rapidly_growing",
+      "competitiveness": 4,
+      "location": "United States"
+    },
+    "similar_careers": ["environmental_engineer", "energy_analyst", "sustainability_consultant"],
+    "is_emerging": true,
+    "automation_risk": 0.15,
+    "noc_code": "2132",
+    "onet_code": "17-2199.11"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Your company is launching a new product. Which role would you prefer?",
+    "scenario": "A startup is developing an innovative eco-friendly product and needs team members for various aspects of the launch.",
+    "options": [
+      {"id": "a", "text": "Product development and prototyping", "dimensions": {"R": 0.7, "I": 0.3}},
+      {"id": "b", "text": "Brand design and creative marketing", "dimensions": {"A": 0.8, "E": 0.2}},
+      {"id": "c", "text": "Market research and data analysis", "dimensions": {"I": 0.8, "C": 0.2}},
+      {"id": "d", "text": "Customer relations and community outreach", "dimensions": {"S": 0.9, "E": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "You're part of a consulting team. What aspect interests you most?",
+    "scenario": "Your team is helping a nonprofit organization improve their operations and expand their impact.",
+    "options": [
+      {"id": "a", "text": "Implementing technical solutions and systems", "dimensions": {"R": 0.5, "C": 0.5}},
+      {"id": "b", "text": "Analyzing financial data and creating projections", "dimensions": {"I": 0.6, "C": 0.4}},
+      {"id": "c", "text": "Leading client presentations and negotiations", "dimensions": {"E": 0.8, "S": 0.2}},
+      {"id": "d", "text": "Designing the organization's visual identity", "dimensions": {"A": 0.9, "C": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

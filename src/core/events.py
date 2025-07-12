@@ -10,10 +10,10 @@ from typing import Callable, Optional
 from fastapi import FastAPI
 
 from src.core.config import get_settings
-from src.core.settings import SystemConstants, app_settings
 from src.database.mongodb import MongoDB
 from src.database.redis_client import RedisClient
 from src.utils.logger import get_logger
+from src.utils.constants import BusinessConstants
 
 settings = get_settings()
 logger = get_logger(__name__)
@@ -259,7 +259,7 @@ class StartupEvent:
         """Initialize health check monitors."""
         try:
             # Create health check tasks
-            health_check_interval = SystemConstants.HEALTH_CHECK_INTERVAL_SECONDS
+            health_check_interval = 30  # Health check interval in seconds
 
             # Database health check
             async def check_database_health():

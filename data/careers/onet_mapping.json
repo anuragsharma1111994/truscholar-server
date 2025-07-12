@@ -1,0 +1,1481 @@
+{
+  "description": "O*NET Interest Profiler and SOC code mapping for career database",
+  "version": "O*NET 28.2 Database",
+  "last_updated": "2024-01-15",
+  "source": "U.S. Department of Labor/Employment and Training Administration (USDOL/ETA)",
+  "careers": {
+    "software_engineer": {
+      "onet_code": "15-1252.00",
+      "soc_code": "15-1252",
+      "title": "Software Developers",
+      "alternate_titles": [
+        "Application Developer",
+        "Application Integration Engineer", 
+        "Applications Developer",
+        "Computer Software Engineer",
+        "Software Architect",
+        "Software Developer",
+        "Software Development Engineer",
+        "Software Engineer",
+        "Systems Software Developer"
+      ],
+      "description": "Research, design, and develop computer and network software or specialized utility programs. Analyze user needs and develop software solutions, applying principles and techniques of computer science, engineering, and mathematical analysis. Update software or enhance existing software capabilities. May work with computer hardware engineers to integrate hardware and software systems, and develop specifications and performance requirements.",
+      "tasks": [
+        "Modify existing software to correct errors, adapt it to new hardware, or upgrade interfaces and improve performance",
+        "Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system",
+        "Analyze user needs and software requirements to determine feasibility of design within time and cost constraints",
+        "Confer with data processing or project managers to obtain information on limitations or capabilities for data processing projects",
+        "Confer with systems analysts, engineers, programmers and others to design system and to obtain information on project limitations and capabilities, performance requirements and interfaces"
+      ],
+      "work_activities": [
+        "Working with Computers",
+        "Thinking Creatively", 
+        "Making Decisions and Solving Problems",
+        "Processing Information",
+        "Analyzing Data or Information"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Freedom to Make Decisions",
+        "Structured versus Unstructured Work",
+        "Time Pressure"
+      ],
+      "knowledge": [
+        "Computers and Electronics",
+        "Mathematics",
+        "Engineering and Technology",
+        "English Language",
+        "Design"
+      ],
+      "skills": [
+        "Programming",
+        "Complex Problem Solving",
+        "Systems Analysis",
+        "Systems Evaluation",
+        "Critical Thinking"
+      ],
+      "abilities": [
+        "Deductive Reasoning",
+        "Information Ordering",
+        "Inductive Reasoning",
+        "Problem Sensitivity",
+        "Category Flexibility"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 39,
+        "investigative": 81,
+        "artistic": 25,
+        "social": 19,
+        "enterprising": 31,
+        "conventional": 56
+      },
+      "work_values": [
+        "Independence",
+        "Working Conditions",
+        "Achievement",
+        "Recognition",
+        "Support"
+      ],
+      "median_wages": {
+        "hourly": 51.28,
+        "annual": 106670,
+        "entry_level": 75000,
+        "experienced": 130000
+      },
+      "employment": {
+        "current_employment": 1365000,
+        "projected_employment": 1469000,
+        "change_2022_2032": 7.6,
+        "job_openings_per_year": 153000
+      },
+      "related_occupations": [
+        "15-1211.00",
+        "15-1231.00", 
+        "15-1241.00",
+        "15-1244.00",
+        "15-1251.00"
+      ]
+    },
+    "registered_nurse": {
+      "onet_code": "29-1141.00",
+      "soc_code": "29-1141",
+      "title": "Registered Nurses",
+      "alternate_titles": [
+        "Charge Nurse",
+        "Clinical Nurse",
+        "Graduate Nurse",
+        "Licensed Registered Nurse",
+        "Medical Nurse",
+        "Professional Nurse",
+        "Registered Nurse",
+        "Staff Nurse"
+      ],
+      "description": "Assess patient health problems and needs, develop and implement nursing care plans, and maintain medical records. Administer nursing care to ill, injured, convalescent, or disabled patients. May advise patients on health maintenance and disease prevention or provide case management. Licensing or registration required.",
+      "tasks": [
+        "Administer medications to patients and monitor patients for reactions or side effects",
+        "Record patients' medical information and vital signs",
+        "Monitor, record, and report symptoms or changes in patients' conditions",
+        "Maintain accurate, detailed reports and records",
+        "Consult and coordinate with healthcare team members to assess, plan, implement, or evaluate patient care plans"
+      ],
+      "work_activities": [
+        "Documenting/Recording Information",
+        "Making Decisions and Solving Problems",
+        "Communicating with Supervisors, Peers, or Subordinates",
+        "Assisting and Caring for Others",
+        "Getting Information"
+      ],
+      "work_context": [
+        "Physical Proximity",
+        "Contact With Others",
+        "Face-to-Face Discussions",
+        "Importance of Being Exact or Accurate",
+        "Work With Work Group or Team"
+      ],
+      "knowledge": [
+        "Medicine and Dentistry",
+        "Psychology",
+        "Customer and Personal Service",
+        "English Language",
+        "Biology"
+      ],
+      "skills": [
+        "Social Perceptiveness",
+        "Critical Thinking",
+        "Speaking",
+        "Active Listening",
+        "Reading Comprehension"
+      ],
+      "abilities": [
+        "Problem Sensitivity",
+        "Deductive Reasoning",
+        "Inductive Reasoning",
+        "Oral Comprehension",
+        "Oral Expression"
+      ],
+      "education": "Associate's degree",
+      "experience": "None", 
+      "training": "None",
+      "interests": {
+        "realistic": 42,
+        "investigative": 54,
+        "artistic": 17,
+        "social": 83,
+        "enterprising": 33,
+        "conventional": 58
+      },
+      "work_values": [
+        "Achievement",
+        "Support",
+        "Relationships",
+        "Working Conditions",
+        "Independence"
+      ],
+      "median_wages": {
+        "hourly": 37.31,
+        "annual": 77600,
+        "entry_level": 62000,
+        "experienced": 95000
+      },
+      "employment": {
+        "current_employment": 3175000,
+        "projected_employment": 3371000,
+        "change_2022_2032": 6.2,
+        "job_openings_per_year": 195000
+      },
+      "related_occupations": [
+        "29-1151.00",
+        "29-1171.00",
+        "29-2061.00",
+        "31-1131.00",
+        "31-1133.00"
+      ]
+    },
+    "mechanical_engineer": {
+      "onet_code": "17-2141.00",
+      "soc_code": "17-2141", 
+      "title": "Mechanical Engineers",
+      "alternate_titles": [
+        "Design Engineer",
+        "Mechanical Design Engineer",
+        "Mechanical Systems Engineer",
+        "Product Development Engineer",
+        "Research and Development Engineer"
+      ],
+      "description": "Perform engineering duties in planning and designing tools, engines, machines, and other mechanically functioning equipment. Oversee installation, operation, maintenance, and repair of equipment such as centralized heat, gas, water, and steam systems.",
+      "tasks": [
+        "Research, design, evaluate, install, operate, and maintain mechanical products, equipment, systems and processes to meet requirements",
+        "Confer with engineers and other personnel to implement operating procedures, resolve system malfunctions, and provide technical information",
+        "Research and analyze customer design proposals, specifications, manuals, and other data to evaluate the feasibility, cost, and maintenance requirements",
+        "Specify system components or direct modification of products to ensure conformance with engineering design and performance specifications",
+        "Investigate equipment failures and difficulties to diagnose faulty operation and make recommendations to maintenance crew"
+      ],
+      "work_activities": [
+        "Making Decisions and Solving Problems",
+        "Thinking Creatively",
+        "Getting Information", 
+        "Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment",
+        "Processing Information"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Freedom to Make Decisions",
+        "Importance of Being Exact or Accurate",
+        "Time Pressure"
+      ],
+      "knowledge": [
+        "Engineering and Technology",
+        "Design",
+        "Mathematics",
+        "Physics",
+        "Mechanical"
+      ],
+      "skills": [
+        "Complex Problem Solving",
+        "Critical Thinking",
+        "Mathematics",
+        "Reading Comprehension", 
+        "Active Learning"
+      ],
+      "abilities": [
+        "Deductive Reasoning",
+        "Mathematical Reasoning",
+        "Problem Sensitivity",
+        "Inductive Reasoning",
+        "Information Ordering"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 83,
+        "investigative": 75,
+        "artistic": 25,
+        "social": 19,
+        "enterprising": 42,
+        "conventional": 50
+      },
+      "work_values": [
+        "Independence",
+        "Working Conditions",
+        "Achievement",
+        "Compensation",
+        "Ability Utilization"
+      ],
+      "median_wages": {
+        "hourly": 42.51,
+        "annual": 88430,
+        "entry_level": 68000,
+        "experienced": 115000
+      },
+      "employment": {
+        "current_employment": 320000,
+        "projected_employment": 326000,
+        "change_2022_2032": 2.0,
+        "job_openings_per_year": 20000
+      },
+      "related_occupations": [
+        "17-2112.00",
+        "17-2131.00",
+        "17-2171.00",
+        "17-3027.00",
+        "17-3029.00"
+      ]
+    },
+    "graphic_designer": {
+      "onet_code": "27-1024.00",
+      "soc_code": "27-1024",
+      "title": "Graphic Designers",
+      "alternate_titles": [
+        "Art Director",
+        "Commercial Artist",
+        "Creative Director",
+        "Designer",
+        "Graphic Artist",
+        "Graphic Designer",
+        "Marketing Designer",
+        "Visual Designer"
+      ],
+      "description": "Design or create graphics to meet specific commercial or promotional needs, such as packaging, displays, or logos. May use a variety of mediums to achieve artistic or decorative effects.",
+      "tasks": [
+        "Create designs, concepts, and sample layouts, based on knowledge of layout principles and esthetic design concepts",
+        "Determine size and arrangement of illustrative material and copy, and select style and size of type",
+        "Confer with clients to discuss and determine layout design",
+        "Develop graphics and layouts for product illustrations, company logos, and Web sites",
+        "Review final layouts and suggest improvements as needed"
+      ],
+      "work_activities": [
+        "Thinking Creatively",
+        "Working with Computers",
+        "Communicating with People Outside Organization",
+        "Getting Information",
+        "Making Decisions and Solving Problems"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Freedom to Make Decisions",
+        "Sitting",
+        "Time Pressure"
+      ],
+      "knowledge": [
+        "Design",
+        "Fine Arts",
+        "Communications and Media",
+        "Computers and Electronics",
+        "English Language"
+      ],
+      "skills": [
+        "Active Listening",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Speaking",
+        "Time Management"
+      ],
+      "abilities": [
+        "Originality",
+        "Fluency of Ideas",
+        "Visualization",
+        "Visual Color Discrimination",
+        "Near Vision"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 17,
+        "investigative": 31,
+        "artistic": 89,
+        "social": 25,
+        "enterprising": 42,
+        "conventional": 39
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Ability Utilization",
+        "Creativity"
+      ],
+      "median_wages": {
+        "hourly": 25.66,
+        "annual": 53380,
+        "entry_level": 38000,
+        "experienced": 72000
+      },
+      "employment": {
+        "current_employment": 290000,
+        "projected_employment": 299000,
+        "change_2022_2032": 3.0,
+        "job_openings_per_year": 23900
+      },
+      "related_occupations": [
+        "27-1014.00",
+        "27-1025.00",
+        "27-1026.00",
+        "27-1027.00",
+        "27-3043.00"
+      ]
+    },
+    "marketing_manager": {
+      "onet_code": "11-2021.00",
+      "soc_code": "11-2021",
+      "title": "Marketing Managers",
+      "alternate_titles": [
+        "Brand Manager",
+        "Campaign Manager",
+        "Digital Marketing Manager",
+        "Global Marketing Manager",
+        "Marketing Director",
+        "Marketing Manager",
+        "Product Marketing Manager",
+        "Regional Marketing Manager"
+      ],
+      "description": "Plan, direct, or coordinate marketing policies and programs, such as determining the demand for products and services offered by a firm and its competitors, and identify potential customers. Develop pricing strategies with the goal of maximizing the firm's profits or share of the market while ensuring the firm's customers are satisfied. Oversee product development or monitor trends that indicate the need for new products and services.",
+      "tasks": [
+        "Develop pricing strategies, balancing firm objectives and customer satisfaction",
+        "Identify, develop, and evaluate marketing strategy, based on knowledge of establishment objectives, market characteristics, and cost and markup factors",
+        "Evaluate the financial aspects of product development, such as budgets, expenditures, research and development appropriations, and return-on-investment and profit-loss projections",
+        "Formulate, direct and coordinate marketing activities and policies to promote products and services, working with advertising and promotion managers",
+        "Direct the hiring, training, and performance evaluations of marketing and sales staff and oversee their daily activities"
+      ],
+      "work_activities": [
+        "Making Decisions and Solving Problems",
+        "Developing Objectives and Strategies",
+        "Communicating with People Outside Organization",
+        "Getting Information",
+        "Coordinating the Work and Activities of Others"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Contact With Others",
+        "Freedom to Make Decisions",
+        "Structured versus Unstructured Work"
+      ],
+      "knowledge": [
+        "Sales and Marketing",
+        "Customer and Personal Service",
+        "English Language",
+        "Administration and Management",
+        "Communications and Media"
+      ],
+      "skills": [
+        "Management of Personnel Resources",
+        "Persuasion",
+        "Negotiation",
+        "Social Perceptiveness",
+        "Speaking"
+      ],
+      "abilities": [
+        "Oral Expression",
+        "Oral Comprehension",
+        "Speech Clarity",
+        "Written Comprehension",
+        "Fluency of Ideas"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "5 years or more",
+      "training": "None",
+      "interests": {
+        "realistic": 8,
+        "investigative": 42,
+        "artistic": 50,
+        "social": 47,
+        "enterprising": 83,
+        "conventional": 58
+      },
+      "work_values": [
+        "Achievement",
+        "Recognition",
+        "Working Conditions",
+        "Compensation",
+        "Authority"
+      ],
+      "median_wages": {
+        "hourly": 68.35,
+        "annual": 142170,
+        "entry_level": 55000,
+        "experienced": 185000
+      },
+      "employment": {
+        "current_employment": 278000,
+        "projected_employment": 294000,
+        "change_2022_2032": 6.0,
+        "job_openings_per_year": 31100
+      },
+      "related_occupations": [
+        "11-2011.00",
+        "11-2022.00",
+        "11-2031.00",
+        "13-1161.00",
+        "41-3031.00"
+      ]
+    },
+    "data_scientist": {
+      "onet_code": "15-2051.00",
+      "soc_code": "15-2051",
+      "title": "Data Scientists",
+      "alternate_titles": [
+        "Business Intelligence Analyst",
+        "Data Analytics Consultant",
+        "Data Analyst",
+        "Data Mining Analyst",
+        "Data Scientist",
+        "Predictive Modeler",
+        "Quantitative Analyst",
+        "Research Scientist"
+      ],
+      "description": "Develop and implement methods to transform raw data into meaningful information using data-oriented programming languages and visualization software. Apply advanced analytics, implement, maintain, and improve data systems, and create data visualization and presentation materials to assist stakeholders in understanding data-driven insights and trends.",
+      "tasks": [
+        "Analyze large datasets to extract meaningful insights",
+        "Design and implement new processes for modeling data",
+        "Create reports and presentations for stakeholders",
+        "Develop algorithms to transform data into useful business insights",
+        "Test data mining models to select the best ones"
+      ],
+      "work_activities": [
+        "Working with Computers",
+        "Processing Information",
+        "Analyzing Data or Information",
+        "Getting Information",
+        "Making Decisions and Solving Problems"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Importance of Being Exact or Accurate",
+        "Sitting",
+        "Freedom to Make Decisions"
+      ],
+      "knowledge": [
+        "Mathematics",
+        "Computers and Electronics",
+        "English Language",
+        "Engineering and Technology",
+        "Administration and Management"
+      ],
+      "skills": [
+        "Programming",
+        "Critical Thinking",
+        "Mathematics",
+        "Complex Problem Solving",
+        "Reading Comprehension"
+      ],
+      "abilities": [
+        "Mathematical Reasoning",
+        "Deductive Reasoning",
+        "Inductive Reasoning",
+        "Information Ordering",
+        "Problem Sensitivity"
+      ],
+      "education": "Master's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 22,
+        "investigative": 89,
+        "artistic": 17,
+        "social": 25,
+        "enterprising": 31,
+        "conventional": 67
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Compensation",
+        "Ability Utilization"
+      ],
+      "median_wages": {
+        "hourly": 60.98,
+        "annual": 126830,
+        "entry_level": 85000,
+        "experienced": 165000
+      },
+      "employment": {
+        "current_employment": 168000,
+        "projected_employment": 227000,
+        "change_2022_2032": 35.0,
+        "job_openings_per_year": 13500
+      },
+      "related_occupations": [
+        "15-1211.00",
+        "15-1244.00",
+        "15-2041.00",
+        "15-2031.00",
+        "19-3022.00"
+      ]
+    },
+    "elementary_teacher": {
+      "onet_code": "25-2021.00",
+      "soc_code": "25-2021",
+      "title": "Elementary School Teachers, Except Special Education",
+      "alternate_titles": [
+        "Classroom Teacher",
+        "Elementary Educator",
+        "Elementary School Teacher",
+        "Fifth Grade Teacher",
+        "First Grade Teacher",
+        "Fourth Grade Teacher",
+        "Primary Teacher",
+        "Second Grade Teacher",
+        "Third Grade Teacher"
+      ],
+      "description": "Teach academic and social skills to students at the elementary school level.",
+      "tasks": [
+        "Establish and enforce rules for behavior and procedures for maintaining order among the students for whom they are responsible",
+        "Adapt teaching methods and instructional materials to meet students' varying needs and interests",
+        "Instruct students individually and in groups, using various teaching methods such as lectures, discussions, and demonstrations",
+        "Observe and evaluate students' performance, behavior, social development, and physical health",
+        "Plan and conduct activities for a balanced program of instruction, demonstration, and work time that provides students with opportunities to observe, question, and investigate"
+      ],
+      "work_activities": [
+        "Teaching",
+        "Establishing and Maintaining Interpersonal Relationships",
+        "Communicating with Supervisors, Peers, or Subordinates",
+        "Training and Teaching Others",
+        "Developing Objectives and Strategies"
+      ],
+      "work_context": [
+        "Contact With Others",
+        "Face-to-Face Discussions",
+        "Work With Work Group or Team",
+        "Structured versus Unstructured Work",
+        "Freedom to Make Decisions"
+      ],
+      "knowledge": [
+        "Education and Training",
+        "English Language",
+        "Psychology",
+        "Sociology and Anthropology",
+        "Mathematics"
+      ],
+      "skills": [
+        "Learning Strategies",
+        "Instructing",
+        "Speaking",
+        "Social Perceptiveness",
+        "Active Listening"
+      ],
+      "abilities": [
+        "Oral Expression",
+        "Speech Clarity",
+        "Oral Comprehension",
+        "Written Comprehension",
+        "Problem Sensitivity"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "Internship/residency",
+      "interests": {
+        "realistic": 11,
+        "investigative": 42,
+        "artistic": 58,
+        "social": 86,
+        "enterprising": 36,
+        "conventional": 61
+      },
+      "work_values": [
+        "Relationships",
+        "Achievement",
+        "Support",
+        "Working Conditions",
+        "Independence"
+      ],
+      "median_wages": {
+        "hourly": 29.31,
+        "annual": 60940,
+        "entry_level": 40000,
+        "experienced": 78000
+      },
+      "employment": {
+        "current_employment": 1500000,
+        "projected_employment": 1563000,
+        "change_2022_2032": 4.0,
+        "job_openings_per_year": 123000
+      },
+      "related_occupations": [
+        "25-2011.00",
+        "25-2012.00",
+        "25-2022.00",
+        "25-2031.00",
+        "25-2051.00"
+      ]
+    },
+    "financial_advisor": {
+      "onet_code": "13-2052.00",
+      "soc_code": "13-2052",
+      "title": "Personal Financial Advisors",
+      "alternate_titles": [
+        "Certified Financial Planner",
+        "Financial Advisor",
+        "Financial Consultant",
+        "Financial Planner",
+        "Financial Representative",
+        "Investment Advisor",
+        "Private Wealth Advisor",
+        "Wealth Manager"
+      ],
+      "description": "Advise clients on financial plans using knowledge of tax and investment strategies, securities, insurance, pension plans, and real estate. Duties include assessing clients' assets, liabilities, cash flow, insurance coverage, tax status, and financial objectives. May also buy and sell financial assets for clients.",
+      "tasks": [
+        "Analyze financial information obtained from clients to determine strategies for meeting clients' financial objectives",
+        "Answer clients' questions about the purposes and details of financial plans and strategies",
+        "Build and maintain client bases, keeping current client plans up-to-date and recruiting new clients on an ongoing basis",
+        "Contact clients periodically to determine if there have been changes in their financial status",
+        "Devise debt liquidation plans that include payoff priorities and timelines"
+      ],
+      "work_activities": [
+        "Selling or Influencing Others",
+        "Getting Information",
+        "Communicating with People Outside Organization",
+        "Processing Information",
+        "Making Decisions and Solving Problems"
+      ],
+      "work_context": [
+        "Contact With Others",
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Telephone",
+        "Freedom to Make Decisions"
+      ],
+      "knowledge": [
+        "Economics and Accounting",
+        "Customer and Personal Service",
+        "Mathematics",
+        "Sales and Marketing",
+        "Law and Government"
+      ],
+      "skills": [
+        "Speaking",
+        "Active Listening",
+        "Mathematics",
+        "Persuasion",
+        "Critical Thinking"
+      ],
+      "abilities": [
+        "Mathematical Reasoning",
+        "Oral Expression",
+        "Oral Comprehension",
+        "Number Facility",
+        "Deductive Reasoning"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "Long-term on-the-job training",
+      "interests": {
+        "realistic": 8,
+        "investigative": 58,
+        "artistic": 17,
+        "social": 67,
+        "enterprising": 78,
+        "conventional": 81
+      },
+      "work_values": [
+        "Compensation",
+        "Achievement",
+        "Independence",
+        "Recognition",
+        "Working Conditions"
+      ],
+      "median_wages": {
+        "hourly": 42.23,
+        "annual": 87850,
+        "entry_level": 45000,
+        "experienced": 135000
+      },
+      "employment": {
+        "current_employment": 330000,
+        "projected_employment": 346000,
+        "change_2022_2032": 5.0,
+        "job_openings_per_year": 21600
+      },
+      "related_occupations": [
+        "13-2041.00",
+        "13-2053.00",
+        "13-2061.00",
+        "13-2072.00",
+        "41-3031.00"
+      ]
+    },
+    "cybersecurity_analyst": {
+      "onet_code": "15-1212.00",
+      "soc_code": "15-1212",
+      "title": "Information Security Analysts",
+      "alternate_titles": [
+        "Cyber Security Analyst",
+        "Cyber Threat Analyst",
+        "Information Assurance Analyst",
+        "Information Security Analyst",
+        "Information Systems Security Analyst",
+        "IT Security Analyst",
+        "Security Analyst",
+        "Systems Security Analyst"
+      ],
+      "description": "Plan, implement, upgrade, or monitor security measures for the protection of computer networks and information. Assess system vulnerabilities for security risks and propose and implement risk mitigation strategies. May ensure appropriate security controls are in place that will safeguard digital files and vital electronic infrastructure. May respond to computer security breaches and viruses.",
+      "tasks": [
+        "Monitor current reports of computer viruses to determine when to update virus protection systems",
+        "Encrypt data transmissions and erect firewalls to conceal confidential information as it is being transmitted and to keep out tainted digital transfers",
+        "Perform risk assessments and execute tests of data processing system to ensure functioning of data processing activities and security measures",
+        "Modify computer security files to incorporate new software, correct errors, or change individual access status",
+        "Coordinate implementation of computer system plan with establishment personnel and outside vendors"
+      ],
+      "work_activities": [
+        "Working with Computers",
+        "Getting Information",
+        "Making Decisions and Solving Problems",
+        "Processing Information",
+        "Updating and Using Relevant Knowledge"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Importance of Being Exact or Accurate",
+        "Sitting",
+        "Freedom to Make Decisions"
+      ],
+      "knowledge": [
+        "Computers and Electronics",
+        "Telecommunications",
+        "Engineering and Technology",
+        "Mathematics",
+        "English Language"
+      ],
+      "skills": [
+        "Critical Thinking",
+        "Complex Problem Solving",
+        "Systems Analysis",
+        "Systems Evaluation",
+        "Troubleshooting"
+      ],
+      "abilities": [
+        "Problem Sensitivity",
+        "Deductive Reasoning",
+        "Information Ordering",
+        "Inductive Reasoning",
+        "Written Comprehension"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "Less than 5 years",
+      "training": "None",
+      "interests": {
+        "realistic": 33,
+        "investigative": 81,
+        "artistic": 11,
+        "social": 22,
+        "enterprising": 28,
+        "conventional": 75
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Compensation",
+        "Support"
+      ],
+      "median_wages": {
+        "hourly": 49.80,
+        "annual": 103590,
+        "entry_level": 70000,
+        "experienced": 135000
+      },
+      "employment": {
+        "current_employment": 131000,
+        "projected_employment": 174000,
+        "change_2022_2032": 33.0,
+        "job_openings_per_year": 16300
+      },
+      "related_occupations": [
+        "15-1211.00",
+        "15-1221.00",
+        "15-1231.00",
+        "15-1241.00",
+        "15-1299.00"
+      ]
+    },
+    "social_worker": {
+      "onet_code": "21-1021.00",
+      "soc_code": "21-1021",
+      "title": "Child, Family, and School Social Workers",
+      "alternate_titles": [
+        "Family Social Worker",
+        "Licensed Clinical Social Worker",
+        "Licensed Social Worker",
+        "Medical Social Worker",
+        "School Social Worker",
+        "Social Worker",
+        "Youth Development Specialist"
+      ],
+      "description": "Provide social services and assistance to improve the social and psychological functioning of children and their families and to maximize the family well-being and the academic functioning of children. May assist parents, arrange adoptions, and find foster homes for abandoned or abused children. In schools, they address such problems as teenage pregnancy, misbehavior, and truancy. May also advise teachers.",
+      "tasks": [
+        "Interview clients individually, in families, or in groups, assessing their situations, capabilities, and problems to determine what services are required",
+        "Serve as liaisons between students, homes, schools, family services, child guidance clinics, courts, protective services, doctors, and other contacts to help children who face problems such as disabilities, abuse, or poverty",
+        "Develop and review service plans in consultation with clients and perform follow-ups assessing the quantity and quality of services provided",
+        "Address legal issues, such as child abuse and discipline referrals",
+        "Maintain case history records and prepare reports"
+      ],
+      "work_activities": [
+        "Documenting/Recording Information",
+        "Communicating with People Outside Organization",
+        "Establishing and Maintaining Interpersonal Relationships",
+        "Assisting and Caring for Others",
+        "Making Decisions and Solving Problems"
+      ],
+      "work_context": [
+        "Contact With Others",
+        "Face-to-Face Discussions",
+        "Telephone",
+        "Deal With Unpleasant or Angry People",
+        "Work With Work Group or Team"
+      ],
+      "knowledge": [
+        "Psychology",
+        "Therapy and Counseling",
+        "Sociology and Anthropology",
+        "Customer and Personal Service",
+        "English Language"
+      ],
+      "skills": [
+        "Social Perceptiveness",
+        "Active Listening",
+        "Speaking",
+        "Service Orientation",
+        "Critical Thinking"
+      ],
+      "abilities": [
+        "Oral Comprehension",
+        "Oral Expression",
+        "Problem Sensitivity",
+        "Speech Clarity",
+        "Written Comprehension"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "Internship/residency",
+      "interests": {
+        "realistic": 6,
+        "investigative": 47,
+        "artistic": 28,
+        "social": 89,
+        "enterprising": 31,
+        "conventional": 53
+      },
+      "work_values": [
+        "Relationships",
+        "Achievement",
+        "Support",
+        "Working Conditions",
+        "Independence"
+      ],
+      "median_wages": {
+        "hourly": 24.88,
+        "annual": 51760,
+        "entry_level": 38000,
+        "experienced": 68000
+      },
+      "employment": {
+        "current_employment": 309000,
+        "projected_employment": 346000,
+        "change_2022_2032": 12.0,
+        "job_openings_per_year": 31300
+      },
+      "related_occupations": [
+        "21-1011.00",
+        "21-1012.00",
+        "21-1022.00",
+        "21-1023.00",
+        "21-1091.00"
+      ]
+    },
+    "ux_designer": {
+      "onet_code": "15-1255.00",
+      "soc_code": "15-1255",
+      "title": "Web and Digital Interface Designers",
+      "alternate_titles": [
+        "Digital Designer",
+        "Front End Designer",
+        "Information Architect",
+        "Interaction Designer",
+        "Interface Designer",
+        "User Experience Designer",
+        "User Interface Designer",
+        "UX Designer",
+        "Web Designer"
+      ],
+      "description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus to ensure compatibility and usability across browsers or devices. May use web framework applications as well as client-side code and processes. May evaluate web design following web and accessibility standards.",
+      "tasks": [
+        "Design, build, or maintain websites, using authoring or scripting languages, content creation tools, management tools, and digital media",
+        "Write, design, or edit web page content, or direct others producing content",
+        "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions",
+        "Back up files from websites to local directories for instant recovery in case of problems",
+        "Identify problems uncovered by testing or customer feedback, and correct problems or refer problems to appropriate personnel for correction"
+      ],
+      "work_activities": [
+        "Working with Computers",
+        "Thinking Creatively",
+        "Getting Information",
+        "Making Decisions and Solving Problems",
+        "Communicating with Supervisors, Peers, or Subordinates"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Sitting",
+        "Freedom to Make Decisions",
+        "Importance of Being Exact or Accurate"
+      ],
+      "knowledge": [
+        "Computers and Electronics",
+        "Design",
+        "Communications and Media",
+        "Customer and Personal Service",
+        "English Language"
+      ],
+      "skills": [
+        "Programming",
+        "Critical Thinking",
+        "Active Learning",
+        "Complex Problem Solving",
+        "Reading Comprehension"
+      ],
+      "abilities": [
+        "Originality",
+        "Fluency of Ideas",
+        "Visualization",
+        "Category Flexibility",
+        "Information Ordering"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 11,
+        "investigative": 58,
+        "artistic": 81,
+        "social": 39,
+        "enterprising": 36,
+        "conventional": 42
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Creativity",
+        "Ability Utilization"
+      ],
+      "median_wages": {
+        "hourly": 41.00,
+        "annual": 85277,
+        "entry_level": 60000,
+        "experienced": 115000
+      },
+      "employment": {
+        "current_employment": 95000,
+        "projected_employment": 107000,
+        "change_2022_2032": 13.0,
+        "job_openings_per_year": 8500
+      },
+      "related_occupations": [
+        "15-1254.00",
+        "15-1256.00",
+        "27-1024.00",
+        "27-1014.00",
+        "15-1299.00"
+      ]
+    },
+    "environmental_scientist": {
+      "onet_code": "19-2041.00",
+      "soc_code": "19-2041",
+      "title": "Environmental Scientists and Specialists, Including Health",
+      "alternate_titles": [
+        "Air Quality Specialist",
+        "Environmental Consultant",
+        "Environmental Health Specialist",
+        "Environmental Scientist",
+        "Environmental Specialist",
+        "Groundwater Specialist",
+        "Water Quality Specialist"
+      ],
+      "description": "Conduct research or perform investigation for the purpose of identifying, abating, or eliminating sources of pollutants or hazards that affect either the environment or public health. Using knowledge of various scientific disciplines, may collect, synthesize, study, report, and recommend action based on data derived from measurements or observations of air, food, soil, water, and other sources.",
+      "tasks": [
+        "Collect, synthesize, analyze, manage, and report environmental data such as pollution emission measurements, atmospheric monitoring measurements, meteorological or mineralogical information, or soil or water samples",
+        "Analyze data to determine validity, quality, and scientific significance, and to interpret correlations between human activities and environmental effects",
+        "Communicate scientific or technical information to the public, organizations, or internal audiences through oral briefings, written documents, workshops, conferences, training sessions, or public hearings",
+        "Provide scientific or technical guidance, support, or advice to policy makers, organizational leaders, or regulatory agencies",
+        "Process and review environmental permits, licenses, and related materials"
+      ],
+      "work_activities": [
+        "Getting Information",
+        "Analyzing Data or Information",
+        "Processing Information",
+        "Working with Computers",
+        "Documenting/Recording Information"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Freedom to Make Decisions",
+        "Sitting",
+        "Importance of Being Exact or Accurate"
+      ],
+      "knowledge": [
+        "Biology",
+        "Chemistry",
+        "Geography",
+        "Mathematics",
+        "English Language"
+      ],
+      "skills": [
+        "Science",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Writing",
+        "Complex Problem Solving"
+      ],
+      "abilities": [
+        "Written Comprehension",
+        "Inductive Reasoning",
+        "Deductive Reasoning",
+        "Problem Sensitivity",
+        "Information Ordering"
+      ],
+      "education": "Master's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 67,
+        "investigative": 86,
+        "artistic": 22,
+        "social": 42,
+        "enterprising": 28,
+        "conventional": 58
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Ability Utilization",
+        "Support"
+      ],
+      "median_wages": {
+        "hourly": 35.21,
+        "annual": 73230,
+        "entry_level": 45000,
+        "experienced": 95000
+      },
+      "employment": {
+        "current_employment": 92000,
+        "projected_employment": 99000,
+        "change_2022_2032": 8.0,
+        "job_openings_per_year": 9400
+      },
+      "related_occupations": [
+        "19-1031.00",
+        "19-2042.00",
+        "19-2043.00",
+        "19-4043.00",
+        "17-2081.00"
+      ]
+    },
+    "project_manager": {
+      "onet_code": "11-9021.00",
+      "soc_code": "11-9021",
+      "title": "Construction Managers",
+      "alternate_titles": [
+        "Construction Project Manager",
+        "Construction Superintendent",
+        "General Contractor",
+        "Project Manager",
+        "Project Superintendent",
+        "Site Manager",
+        "Superintendent"
+      ],
+      "description": "Plan, direct, or coordinate, usually through subordinate supervisory personnel, activities concerned with the construction and maintenance of structures, facilities, and systems. Participate in the conceptual development of a construction project and oversee its organization, scheduling, budgeting, and implementation. Includes managers in specialized construction fields, such as carpentry or plumbing.",
+      "tasks": [
+        "Schedule the project in logical steps and budget time required to meet deadlines",
+        "Confer with supervisory personnel, owners, contractors, or design professionals to discuss and resolve matters such as work procedures, complaints, or construction problems",
+        "Prepare contracts and negotiate revisions, changes and additions to contractual agreements with architects, consultants, clients, suppliers and subcontractors",
+        "Prepare and submit budget estimates and progress and cost tracking reports",
+        "Interpret and explain plans and contract terms to administrative staff, workers, and clients, representing the owner or developer"
+      ],
+      "work_activities": [
+        "Coordinating the Work and Activities of Others",
+        "Communicating with Supervisors, Peers, or Subordinates",
+        "Making Decisions and Solving Problems",
+        "Scheduling Work and Activities",
+        "Getting Information"
+      ],
+      "work_context": [
+        "Contact With Others",
+        "Face-to-Face Discussions",
+        "Telephone",
+        "Electronic Mail",
+        "Responsible for Others' Health and Safety"
+      ],
+      "knowledge": [
+        "Building and Construction",
+        "Administration and Management",
+        "Customer and Personal Service",
+        "Design",
+        "Engineering and Technology"
+      ],
+      "skills": [
+        "Management of Personnel Resources",
+        "Coordination",
+        "Time Management",
+        "Critical Thinking",
+        "Active Listening"
+      ],
+      "abilities": [
+        "Oral Expression",
+        "Oral Comprehension",
+        "Problem Sensitivity",
+        "Deductive Reasoning",
+        "Speech Clarity"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "5 years or more",
+      "training": "None",
+      "interests": {
+        "realistic": 61,
+        "investigative": 50,
+        "artistic": 25,
+        "social": 58,
+        "enterprising": 78,
+        "conventional": 81
+      },
+      "work_values": [
+        "Authority",
+        "Achievement",
+        "Independence",
+        "Compensation",
+        "Recognition"
+      ],
+      "median_wages": {
+        "hourly": 55.67,
+        "annual": 115790,
+        "entry_level": 60000,
+        "experienced": 145000
+      },
+      "employment": {
+        "current_employment": 416000,
+        "projected_employment": 445000,
+        "change_2022_2032": 7.0,
+        "job_openings_per_year": 36500
+      },
+      "related_occupations": [
+        "11-9041.00",
+        "11-9051.00",
+        "11-9061.00",
+        "17-1011.00",
+        "47-1011.00"
+      ]
+    },
+    "physical_therapist": {
+      "onet_code": "29-1123.00",
+      "soc_code": "29-1123",
+      "title": "Physical Therapists",
+      "alternate_titles": [
+        "Licensed Physical Therapist",
+        "Occupational Physical Therapist",
+        "Orthopedic Physical Therapist",
+        "Outpatient Physical Therapist",
+        "Physical Therapist",
+        "Physiotherapist",
+        "Registered Physical Therapist",
+        "Staff Physical Therapist"
+      ],
+      "description": "Assess, plan, organize, and participate in rehabilitative programs that improve mobility, relieve pain, increase strength, and improve or correct disabling conditions resulting from disease or injury.",
+      "tasks": [
+        "Perform and document an initial exam, evaluating data to identify problems and determine a diagnosis prior to intervention",
+        "Plan, prepare, or carry out individually designed programs of physical treatment to maintain, improve, or restore physical functioning, alleviate pain, or prevent physical dysfunction in patients",
+        "Record prognosis, treatment, response, and progress in patient's chart or enter information into computer",
+        "Identify and document goals, anticipated progress, and plans for reevaluation",
+        "Evaluate effects of treatment at various stages and adjust treatments to achieve maximum benefit"
+      ],
+      "work_activities": [
+        "Assisting and Caring for Others",
+        "Documenting/Recording Information",
+        "Making Decisions and Solving Problems",
+        "Establishing and Maintaining Interpersonal Relationships",
+        "Getting Information"
+      ],
+      "work_context": [
+        "Physical Proximity",
+        "Face-to-Face Discussions",
+        "Contact With Others",
+        "Importance of Being Exact or Accurate",
+        "Work With Work Group or Team"
+      ],
+      "knowledge": [
+        "Therapy and Counseling",
+        "Medicine and Dentistry",
+        "Psychology",
+        "Biology",
+        "Customer and Personal Service"
+      ],
+      "skills": [
+        "Social Perceptiveness",
+        "Critical Thinking",
+        "Active Listening",
+        "Service Orientation",
+        "Reading Comprehension"
+      ],
+      "abilities": [
+        "Problem Sensitivity",
+        "Manual Dexterity",
+        "Stamina",
+        "Trunk Strength",
+        "Static Strength"
+      ],
+      "education": "Doctoral or professional degree",
+      "experience": "None",
+      "training": "Internship/residency",
+      "interests": {
+        "realistic": 58,
+        "investigative": 56,
+        "artistic": 17,
+        "social": 81,
+        "enterprising": 28,
+        "conventional": 39
+      },
+      "work_values": [
+        "Achievement",
+        "Relationships",
+        "Support",
+        "Independence",
+        "Working Conditions"
+      ],
+      "median_wages": {
+        "hourly": 43.75,
+        "annual": 91010,
+        "entry_level": 75000,
+        "experienced": 105000
+      },
+      "employment": {
+        "current_employment": 239800,
+        "projected_employment": 284000,
+        "change_2022_2032": 18.0,
+        "job_openings_per_year": 15600
+      },
+      "related_occupations": [
+        "29-1122.00",
+        "29-1124.00",
+        "29-1125.00",
+        "29-1126.00",
+        "29-1127.00"
+      ]
+    },
+    "renewable_energy_engineer": {
+      "onet_code": "17-2199.11",
+      "soc_code": "17-2199",
+      "title": "Environmental Engineers",
+      "alternate_titles": [
+        "Environmental Engineer",
+        "Renewable Energy Engineer",
+        "Solar Energy Engineer",
+        "Sustainability Engineer",
+        "Wind Energy Engineer"
+      ],
+      "description": "Research, design, plan, or perform engineering duties in the prevention, control, and remediation of environmental hazards using various engineering disciplines. Work may include waste treatment, site remediation, or pollution control technology.",
+      "tasks": [
+        "Design and supervise the development of systems, processes or equipment for control, management, or remediation of water, air, or soil quality",
+        "Collaborate with environmental scientists, planners, hazardous waste technicians, engineers, and other specialists, and experts in law and business to address environmental problems",
+        "Inspect industrial and municipal facilities and programs to evaluate operational effectiveness and ensure compliance with environmental regulations",
+        "Provide environmental engineering assistance in network analysis, regulatory analysis, and planning or reviewing database development",
+        "Monitor progress of environmental improvement programs"
+      ],
+      "work_activities": [
+        "Getting Information",
+        "Making Decisions and Solving Problems",
+        "Working with Computers",
+        "Processing Information",
+        "Analyzing Data or Information"
+      ],
+      "work_context": [
+        "Electronic Mail",
+        "Face-to-Face Discussions",
+        "Freedom to Make Decisions",
+        "Importance of Being Exact or Accurate",
+        "Sitting"
+      ],
+      "knowledge": [
+        "Engineering and Technology",
+        "Design",
+        "Chemistry",
+        "Physics",
+        "Mathematics"
+      ],
+      "skills": [
+        "Complex Problem Solving",
+        "Critical Thinking",
+        "Reading Comprehension",
+        "Mathematics",
+        "Science"
+      ],
+      "abilities": [
+        "Deductive Reasoning",
+        "Mathematical Reasoning",
+        "Problem Sensitivity",
+        "Inductive Reasoning",
+        "Written Comprehension"
+      ],
+      "education": "Bachelor's degree",
+      "experience": "None",
+      "training": "None",
+      "interests": {
+        "realistic": 78,
+        "investigative": 78,
+        "artistic": 22,
+        "social": 28,
+        "enterprising": 42,
+        "conventional": 50
+      },
+      "work_values": [
+        "Achievement",
+        "Independence",
+        "Working Conditions",
+        "Ability Utilization",
+        "Compensation"
+      ],
+      "median_wages": {
+        "hourly": 42.51,
+        "annual": 88430,
+        "entry_level": 65000,
+        "experienced": 115000
+      },
+      "employment": {
+        "current_employment": 45000,
+        "projected_employment": 58000,
+        "change_2022_2032": 28.0,
+        "job_openings_per_year": 4200
+      },
+      "related_occupations": [
+        "17-2081.00",
+        "17-2141.00",
+        "17-2171.00",
+        "19-2041.00",
+        "17-3025.00"
+      ]
+    }
+  },
+  "interest_categories": {
+    "realistic": {
+      "description": "People with Realistic interests like work activities that include practical, hands-on problems and solutions. They enjoy working with plants, animals, and real-world materials like wood, tools, and machinery. They enjoy outside work. Often people with Realistic interests do not like occupations that mainly involve doing paperwork or working closely with others.",
+      "work_values": ["Independence", "Compensation", "Security", "Advancement"],
+      "sample_occupations": ["Carpenter", "Electrician", "Pilot", "Engineer"]
+    },
+    "investigative": {
+      "description": "People with Investigative interests like work activities that have to do with ideas and thinking more than with physical activity. They like to search for facts and figure out problems mentally rather than to persuade or lead people.",
+      "work_values": ["Achievement", "Independence", "Recognition", "Working Conditions"],
+      "sample_occupations": ["Scientist", "Doctor", "Engineer", "Computer Programmer"]
+    },
+    "artistic": {
+      "description": "People with Artistic interests like work activities that deal with the artistic side of things, such as forms, designs, and patterns. They like to express themselves and not follow a clear set of rules.",
+      "work_values": ["Creativity", "Achievement", "Independence", "Variety"],
+      "sample_occupations": ["Designer", "Musician", "Writer", "Actor"]
+    },
+    "social": {
+      "description": "People with Social interests like work activities that assist others and promote learning and personal development. They prefer to communicate more than to work with objects, machines, or data. They like to teach, give advice, help, or otherwise be of service to people.",
+      "work_values": ["Relationships", "Support", "Achievement", "Recognition"],
+      "sample_occupations": ["Teacher", "Counselor", "Nurse", "Social Worker"]
+    },
+    "enterprising": {
+      "description": "People with Enterprising interests like work activities that have to do with starting up and carrying out projects, especially business ventures. They like persuading and leading people and making decisions. They like taking risks for profit.",
+      "work_values": ["Authority", "Compensation", "Recognition", "Advancement"],
+      "sample_occupations": ["Manager", "Salesperson", "Lawyer", "Executive"]
+    },
+    "conventional": {
+      "description": "People with Conventional interests like work activities that follow set procedures and routines. They prefer working with data and detail rather than with ideas. They prefer work in which there are precise standards rather than work in which you have to judge things by yourself.",
+      "work_values": ["Security", "Compensation", "Support", "Working Conditions"],
+      "sample_occupations": ["Accountant", "Secretary", "Bank Teller", "File Clerk"]
+    }
+  },
+  "work_values": {
+    "achievement": "Occupations that satisfy this work value are results oriented and allow employees to use their strongest abilities, giving them a feeling of accomplishment.",
+    "independence": "Occupations that satisfy this work value allow employees to work on their own and make decisions.",
+    "recognition": "Occupations that satisfy this work value offer advancement, potential for leadership, and are often considered prestigious.",
+    "relationships": "Occupations that satisfy this work value allow employees to provide service to others and work with co-workers in a friendly non-competitive environment.",
+    "support": "Occupations that satisfy this work value offer supportive management that stands behind employees.",
+    "working_conditions": "Occupations that satisfy this work value offer job security and good working conditions."
+  },
+  "education_levels": {
+    "high_school": "High school diploma or equivalent",
+    "postsecondary": "Some college, no degree",
+    "associate": "Associate degree",
+    "bachelor": "Bachelor's degree",
+    "master": "Master's degree",
+    "doctoral": "Doctoral or professional degree"
+  },
+  "notes": {
+    "interest_scores": "Interest scores range from 0-100, with higher scores indicating stronger alignment with that interest area",
+    "wage_data": "Wage data is from the Bureau of Labor Statistics Occupational Employment and Wage Statistics (OEWS) survey",
+    "employment_projections": "Employment projections are from the Bureau of Labor Statistics Employment Projections program for 2022-2032",
+    "related_occupations": "Related occupations share similar tasks, knowledge, skills, or abilities"
+  }
+}

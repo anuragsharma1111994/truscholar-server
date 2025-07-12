@@ -1,0 +1,32 @@
+[
+  {
+    "question_text": "Which type of work environment appeals to you most?",
+    "options": [
+      {"id": "a", "text": "Workshop, construction site, or outdoor setting", "dimensions": {"R": 1.0}},
+      {"id": "b", "text": "Studio, gallery, or creative space", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Laboratory, research center, or tech company", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Hospital, school, or community center", "dimensions": {"S": 1.0}}
+    ],
+    "dimensions": ["R", "A", "I", "S"]
+  },
+  {
+    "question_text": "Which career path sounds most interesting?",
+    "options": [
+      {"id": "a", "text": "Engineering or technical trades", "dimensions": {"R": 0.8, "I": 0.2}},
+      {"id": "b", "text": "Business management or entrepreneurship", "dimensions": {"E": 0.9, "C": 0.1}},
+      {"id": "c", "text": "Creative arts or design", "dimensions": {"A": 1.0}},
+      {"id": "d", "text": "Data analysis or financial planning", "dimensions": {"C": 0.7, "I": 0.3}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "What type of project would you find most fulfilling?",
+    "options": [
+      {"id": "a", "text": "Building or developing a tangible product", "dimensions": {"R": 0.9, "I": 0.1}},
+      {"id": "b", "text": "Creating a marketing campaign or brand", "dimensions": {"A": 0.5, "E": 0.5}},
+      {"id": "c", "text": "Conducting research to solve a problem", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Organizing a community service initiative", "dimensions": {"S": 0.8, "C": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

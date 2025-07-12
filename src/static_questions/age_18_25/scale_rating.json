@@ -1,0 +1,22 @@
+[
+  {
+    "question_text": "How important is it for you to work with physical tools or equipment in your career?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Not important",
+      "max": "Essential"
+    },
+    "dimensions": ["R"]
+  },
+  {
+    "question_text": "How much do you value creative expression and innovation in your work?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Not at all",
+      "max": "Extremely important"
+    },
+    "dimensions": ["A"]
+  }
+]

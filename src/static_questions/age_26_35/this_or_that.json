@@ -1,0 +1,20 @@
+[
+  {
+    "question_text": "Which career path aligns better with your values?",
+    "option_a": {"text": "Technical specialist with deep expertise", "dimensions": {"R": 0.5, "I": 0.5}},
+    "option_b": {"text": "People leader with broad influence", "dimensions": {"S": 0.5, "E": 0.5}},
+    "dimensions": ["R", "I", "S", "E"]
+  },
+  {
+    "question_text": "Which work environment do you thrive in?",
+    "option_a": {"text": "Dynamic, creative, and flexible", "dimensions": {"A": 0.7, "E": 0.3}},
+    "option_b": {"text": "Structured, stable, and predictable", "dimensions": {"C": 0.8, "S": 0.2}},
+    "dimensions": ["A", "E", "C", "S"]
+  },
+  {
+    "question_text": "Which achievement would mean more to you?",
+    "option_a": {"text": "Creating something innovative and unique", "dimensions": {"A": 0.6, "I": 0.4}},
+    "option_b": {"text": "Building a successful team or organization", "dimensions": {"E": 0.6, "S": 0.4}},
+    "dimensions": ["A", "I", "E", "S"]
+  }
+]

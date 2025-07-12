@@ -27,7 +27,8 @@ from src.schemas.auth_schemas import (
 from src.utils.constants import UserAccountType
 from src.utils.datetime_utils import utc_now
 from src.utils.exceptions import AuthenticationError, AuthorizationError, ValidationError
-from src.utils.helpers import generate_random_string, mask_phone_number
+from src.utils.helpers import generate_random_string
+from src.utils.helper import mask_phone_number
 from src.utils.logger import get_security_logger
 from src.utils.validators import validate_name, validate_phone
 

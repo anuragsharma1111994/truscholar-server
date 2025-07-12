@@ -1,0 +1,20 @@
+[
+  {
+    "question_text": "Which would you prefer?",
+    "option_a": {"text": "Building something with your hands", "dimensions": {"R": 1.0}},
+    "option_b": {"text": "Writing a creative story", "dimensions": {"A": 1.0}},
+    "dimensions": ["R", "A"]
+  },
+  {
+    "question_text": "Which sounds more fun?",
+    "option_a": {"text": "Solving a challenging puzzle", "dimensions": {"I": 1.0}},
+    "option_b": {"text": "Organizing a group activity", "dimensions": {"S": 0.5, "E": 0.5}},
+    "dimensions": ["I", "S", "E"]
+  },
+  {
+    "question_text": "Which would you choose?",
+    "option_a": {"text": "Leading a team project", "dimensions": {"E": 1.0}},
+    "option_b": {"text": "Creating a detailed plan", "dimensions": {"C": 1.0}},
+    "dimensions": ["E", "C"]
+  }
+]

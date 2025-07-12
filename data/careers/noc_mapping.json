@@ -1,0 +1,470 @@
+{
+  "description": "National Occupational Classification (NOC) mapping for career database",
+  "version": "NOC 2021 Version 1.0",
+  "last_updated": "2024-01-15",
+  "source": "Employment and Social Development Canada (ESDC)",
+  "careers": {
+    "software_engineer": {
+      "noc_code": "21232",
+      "noc_title": "Software engineers and designers",
+      "noc_unit_group": "21232",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in computer and information systems",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Analyze user's requirements and design, develop and implement computer software applications",
+        "Research, design, evaluate and integrate computer software and hardware systems",
+        "Identify and resolve software issues and defects",
+        "Prepare reports, manuals and other documentation on the status, operation and maintenance of software",
+        "Coordinate and oversee the development activities of a team of software engineers"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in computer engineering, electrical or electronics engineering, engineering physics or computer science",
+        "Master's or doctoral degree in computer engineering, electrical or electronics engineering, engineering physics or computer science may be required",
+        "Licensing by a provincial or territorial association of professional engineers is required"
+      ],
+      "median_wage": {
+        "hourly": 42.31,
+        "annual": 88000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["21230", "21231", "21233", "21234"]
+    },
+    "registered_nurse": {
+      "noc_code": "31301",
+      "noc_title": "Registered nurses and registered psychiatric nurses",
+      "noc_unit_group": "31301",
+      "noc_broad_category": "Health occupations",
+      "noc_minor_group": "Professional occupations in nursing",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Assess patients to identify appropriate nursing interventions",
+        "Collaborate with members of the health care team to plan, implement, coordinate and evaluate patient care",
+        "Deliver direct nursing care to patients",
+        "Provide health education and counselling to patients and their families",
+        "Supervise licensed practical nurses, registered practical nurses and other nursing staff"
+      ],
+      "employment_requirements": [
+        "Completion of a three- or four-year nursing degree program",
+        "Registration with a provincial or territorial nursing regulatory body is required",
+        "Recent graduate nurses may require a period of supervised practice"
+      ],
+      "median_wage": {
+        "hourly": 36.00,
+        "annual": 74880,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["31302", "31303", "32101"]
+    },
+    "mechanical_engineer": {
+      "noc_code": "21301",
+      "noc_title": "Mechanical engineers",
+      "noc_unit_group": "21301",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in engineering",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Design power plants, machines, components, tools, fixtures and equipment",
+        "Analyze dynamics and vibrations of mechanical systems and structures",
+        "Supervise and inspect the installation, modification and commissioning of mechanical systems",
+        "Develop maintenance standards, schedules and programs",
+        "Investigate mechanical failures or unexpected maintenance problems"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in mechanical engineering or in a related engineering discipline",
+        "Master's or doctoral degree in a related engineering discipline may be required",
+        "Licensing by a provincial or territorial association of professional engineers is required"
+      ],
+      "median_wage": {
+        "hourly": 38.46,
+        "annual": 80000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Fair",
+      "related_noc_codes": ["21300", "21302", "21303", "21399"]
+    },
+    "graphic_designer": {
+      "noc_code": "52120",
+      "noc_title": "Graphic designers and illustrators",
+      "noc_unit_group": "52120",
+      "noc_broad_category": "Occupations in art, culture, recreation and sport",
+      "noc_minor_group": "Technical occupations related to art, culture and recreation",
+      "skill_level": "B",
+      "education_level": "College diploma or university degree",
+      "main_duties": [
+        "Consult with clients to determine the nature and content of illustrations and graphic designs",
+        "Develop the graphic elements that meet the clients' objectives",
+        "Prepare sketches, layouts and graphic elements of the subjects to be rendered",
+        "Use traditional tools, multimedia software and image processing, layout and design software",
+        "Adapt existing illustrations and graphic designs"
+      ],
+      "employment_requirements": [
+        "Completion of a college program in graphic arts, commercial art, graphic communications or cartooning",
+        "Bachelor's degree in fine arts with specialization in graphic design or commercial art may be required",
+        "Creative ability and artistic talent, as demonstrated by a portfolio of work, are required"
+      ],
+      "median_wage": {
+        "hourly": 23.08,
+        "annual": 48000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Fair",
+      "related_noc_codes": ["52121", "53111", "53120"]
+    },
+    "marketing_manager": {
+      "noc_code": "10022",
+      "noc_title": "Advertising, marketing and public relations managers",
+      "noc_unit_group": "10022",
+      "noc_broad_category": "Business, finance and administration occupations",
+      "noc_minor_group": "Senior management occupations",
+      "skill_level": "0",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Plan, direct and evaluate the activities of firms and departments that develop and implement advertising campaigns",
+        "Plan, organize, direct, control and evaluate the design, development and production of multimedia advertising",
+        "Establish advertising contract agreements",
+        "Assist in preparing budgets and approve budget expenditures",
+        "Plan, organize, direct, control and evaluate the development and implementation of communication strategies"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in business administration, commerce, marketing, communications or journalism",
+        "Several years of experience in advertising, marketing, public relations or communications",
+        "Specialization in a particular area such as business, journalism or communications may be required"
+      ],
+      "median_wage": {
+        "hourly": 43.27,
+        "annual": 90000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["11202", "50012", "52112"]
+    },
+    "data_scientist": {
+      "noc_code": "21211",
+      "noc_title": "Data scientists",
+      "noc_unit_group": "21211",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in mathematics, statistics and actuarial science",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Collect, process and analyze large structured and unstructured data sets",
+        "Interpret data and analyze results using statistical techniques",
+        "Develop predictive models and machine-learning algorithms",
+        "Combine models through ensemble modeling",
+        "Present information using data visualization techniques",
+        "Propose solutions and strategies to business challenges"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in computer science, mathematics, statistics, economics or related discipline",
+        "Master's or doctoral degree in a related field may be required",
+        "Experience with database management, programming languages and statistical software is required"
+      ],
+      "median_wage": {
+        "hourly": 48.08,
+        "annual": 100000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Very good",
+      "related_noc_codes": ["21210", "21212", "21221", "21222"]
+    },
+    "elementary_teacher": {
+      "noc_code": "41221",
+      "noc_title": "Elementary school and kindergarten teachers",
+      "noc_unit_group": "41221",
+      "noc_broad_category": "Education, law and social, community and government services",
+      "noc_minor_group": "Professional occupations in education services",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Teach basic subjects such as reading, writing and arithmetic or specialized subjects",
+        "Prepare subject material for presentation to students according to an approved curriculum",
+        "Develop and implement special programs for students with specific needs",
+        "Assign and correct homework and tests",
+        "Evaluate students' progress and discuss results with students, parents and school officials"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in education or in the subject matter to be taught",
+        "Bachelor's degree and a teacher training program may be required",
+        "Provincial or territorial licence or certification to teach is required"
+      ],
+      "median_wage": {
+        "hourly": 31.25,
+        "annual": 65000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Fair",
+      "related_noc_codes": ["41220", "41222", "41310", "41321"]
+    },
+    "financial_advisor": {
+      "noc_code": "11101",
+      "noc_title": "Financial auditors and accountants",
+      "noc_unit_group": "11101",
+      "noc_broad_category": "Business, finance and administration occupations",
+      "noc_minor_group": "Professional occupations in business and finance",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Examine and analyze accounting and financial records",
+        "Prepare financial statements and reports",
+        "Audit accounting and financial records",
+        "Evaluate financial controls and procedures",
+        "Provide advice on taxation, investment and other financial matters"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in accounting, finance, commerce or business administration",
+        "Completion of a professional training program in accounting",
+        "Licence or certification with a provincial or territorial accounting association may be required"
+      ],
+      "median_wage": {
+        "hourly": 30.77,
+        "annual": 64000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["11102", "11103", "11109", "12011"]
+    },
+    "cybersecurity_analyst": {
+      "noc_code": "21221",
+      "noc_title": "Information systems analysts and consultants",
+      "noc_unit_group": "21221",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in computer and information systems",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Analyze systems requirements and develop information systems plans",
+        "Design computer systems and establish specifications for programmers",
+        "Develop and implement information systems",
+        "Conduct tests and perform security and quality audits of computer systems",
+        "Operate and manage information systems and advise on their efficient use"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in computer science, computer systems engineering, software engineering or mathematics",
+        "Master's degree in business administration may be required",
+        "Certification or training provided by software vendors may be required"
+      ],
+      "median_wage": {
+        "hourly": 38.46,
+        "annual": 80000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["21220", "21222", "21223", "21230"]
+    },
+    "social_worker": {
+      "noc_code": "41401",
+      "noc_title": "Social workers",
+      "noc_unit_group": "41401",
+      "noc_broad_category": "Education, law and social, community and government services",
+      "noc_minor_group": "Professional occupations in social and community services",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Interview clients individually, in families, or in groups, to assess their situation and problems",
+        "Develop and implement intervention plans to address identified problems",
+        "Advocate for clients to obtain services and resources",
+        "Provide counselling and therapy to assist clients in developing skills",
+        "Act as mediator and liaise between conflicting parties"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in social work",
+        "Master's degree in social work may be required",
+        "Registration or licence with a provincial or territorial association is usually required"
+      ],
+      "median_wage": {
+        "hourly": 28.85,
+        "annual": 60000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["41402", "41403", "41404", "42200"]
+    },
+    "ux_designer": {
+      "noc_code": "21233",
+      "noc_title": "Web designers",
+      "noc_unit_group": "21233",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in computer and information systems",
+      "skill_level": "A",
+      "education_level": "College diploma or university degree",
+      "main_duties": [
+        "Consult with clients to develop and document Website requirements",
+        "Prepare mock-ups and storyboards",
+        "Design and integrate Website components",
+        "Conduct tests and perform security and quality audits",
+        "Plan, design, write and modify Website related code"
+      ],
+      "employment_requirements": [
+        "College diploma or bachelor's degree in computer science, communications, business or related discipline",
+        "Experience with computer programming and graphic design may be required",
+        "Creative ability as demonstrated by a portfolio is required"
+      ],
+      "median_wage": {
+        "hourly": 30.77,
+        "annual": 64000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["21232", "21234", "52120"]
+    },
+    "environmental_scientist": {
+      "noc_code": "21120",
+      "noc_title": "Biologists and related scientists",
+      "noc_unit_group": "21120",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in natural and applied sciences",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Plan and conduct studies of the environment",
+        "Plan and conduct studies on the impact of human activities on the environment",
+        "Conduct field surveys and collect samples for analysis",
+        "Conduct laboratory and field tests and experiments",
+        "Compile information, write technical reports and provide scientific advice"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in biology, chemistry, environmental science or related discipline",
+        "Master's or doctoral degree may be required",
+        "Registration with a provincial or territorial association may be required"
+      ],
+      "median_wage": {
+        "hourly": 32.69,
+        "annual": 68000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Fair",
+      "related_noc_codes": ["21100", "21110", "21121", "21199"]
+    },
+    "project_manager": {
+      "noc_code": "21399",
+      "noc_title": "Other professional engineers",
+      "noc_unit_group": "21399",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in engineering",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Research, design, evaluate and implement engineering solutions",
+        "Plan and manage projects from conception to completion",
+        "Prepare contracts and project specifications",
+        "Supervise engineering projects and coordinate work of technologists, technicians and other engineers",
+        "Conduct feasibility studies and prepare reports"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in engineering or related discipline",
+        "Master's degree or specialized training may be required",
+        "Licensing by a provincial or territorial association of professional engineers is required",
+        "Project management certification may be required"
+      ],
+      "median_wage": {
+        "hourly": 42.31,
+        "annual": 88000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["10010", "10011", "21300", "21301"]
+    },
+    "physical_therapist": {
+      "noc_code": "31202",
+      "noc_title": "Physiotherapists",
+      "noc_unit_group": "31202",
+      "noc_broad_category": "Health occupations",
+      "noc_minor_group": "Professional occupations in therapy and assessment",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Assess patients' physical abilities through evaluative procedures",
+        "Establish treatment goals with patients based on physical diagnoses",
+        "Plan and implement physiotherapy treatment plans",
+        "Evaluate treatment outcomes and modify treatment plans as required",
+        "Communicate with the referring physician and other health care professionals"
+      ],
+      "employment_requirements": [
+        "Master's degree in physiotherapy",
+        "Completion of a clinical internship in physiotherapy",
+        "Registration with provincial or territorial regulatory body is required"
+      ],
+      "median_wage": {
+        "hourly": 36.54,
+        "annual": 76000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Good",
+      "related_noc_codes": ["31200", "31201", "31203", "32109"]
+    },
+    "renewable_energy_engineer": {
+      "noc_code": "21399",
+      "noc_title": "Other professional engineers",
+      "noc_unit_group": "21399",
+      "noc_broad_category": "Natural and applied sciences and related occupations",
+      "noc_minor_group": "Professional occupations in engineering",
+      "skill_level": "A",
+      "education_level": "University degree (bachelor's, master's or doctorate)",
+      "main_duties": [
+        "Research, design and develop renewable energy systems",
+        "Conduct feasibility studies for renewable energy projects",
+        "Design and optimize wind, solar, hydro and other renewable energy systems",
+        "Analyze environmental impact and sustainability of energy projects",
+        "Coordinate renewable energy projects and work with multidisciplinary teams"
+      ],
+      "employment_requirements": [
+        "Bachelor's degree in electrical, mechanical, environmental or chemical engineering",
+        "Master's degree in renewable energy engineering or related field may be required",
+        "Licensing by a provincial or territorial association of professional engineers is required",
+        "Experience with renewable energy technologies and sustainability principles"
+      ],
+      "median_wage": {
+        "hourly": 38.46,
+        "annual": 80000,
+        "currency": "CAD"
+      },
+      "job_prospects": "Very good",
+      "related_noc_codes": ["21300", "21301", "21310", "21320"]
+    }
+  },
+  "skill_levels": {
+    "0": {
+      "title": "Management occupations",
+      "description": "Usually require university graduation and/or a significant amount of experience"
+    },
+    "A": {
+      "title": "Professional occupations",
+      "description": "Usually require university graduation"
+    },
+    "B": {
+      "title": "Technical occupations and skilled trades",
+      "description": "Usually require college education or apprenticeship training"
+    },
+    "C": {
+      "title": "Intermediate occupations",
+      "description": "Usually require high school and/or occupation-specific training"
+    },
+    "D": {
+      "title": "Labour occupations",
+      "description": "Usually require on-the-job training"
+    }
+  },
+  "broad_categories": [
+    "Management occupations",
+    "Business, finance and administration occupations", 
+    "Natural and applied sciences and related occupations",
+    "Health occupations",
+    "Education, law and social, community and government services",
+    "Occupations in art, culture, recreation and sport",
+    "Sales and service occupations",
+    "Trades, transport and equipment operators and related occupations",
+    "Natural resources, agriculture and related production occupations",
+    "Occupations in manufacturing and utilities"
+  ],
+  "notes": {
+    "wage_data": "Median wages are based on Statistics Canada Labour Force Survey data and may vary by province, experience level, and other factors",
+    "job_prospects": "Job prospects are rated as Very good, Good, Fair or Limited based on employment growth projections and labour market indicators",
+    "licensing": "Many professional occupations require licensing or certification by provincial or territorial regulatory bodies"
+  }
+}

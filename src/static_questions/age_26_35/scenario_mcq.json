@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Your organization is undergoing major transformation. Which role would you take?",
+    "scenario": "The company needs to adapt to new market conditions and is forming cross-functional teams to lead different aspects of the change.",
+    "options": [
+      {"id": "a", "text": "Leading technical infrastructure upgrades", "dimensions": {"R": 0.7, "C": 0.3}},
+      {"id": "b", "text": "Redesigning company culture and brand identity", "dimensions": {"A": 0.7, "S": 0.3}},
+      {"id": "c", "text": "Analyzing market data and developing strategies", "dimensions": {"I": 0.8, "E": 0.2}},
+      {"id": "d", "text": "Managing change communication and team morale", "dimensions": {"S": 0.8, "E": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "You have the opportunity to start a new division. What would it focus on?",
+    "scenario": "Your company is investing in new ventures and you can propose and lead a new division.",
+    "options": [
+      {"id": "a", "text": "Product development and engineering innovation", "dimensions": {"R": 0.6, "I": 0.4}},
+      {"id": "b", "text": "Creative services and brand experiences", "dimensions": {"A": 0.9, "E": 0.1}},
+      {"id": "c", "text": "Business intelligence and predictive analytics", "dimensions": {"I": 0.8, "C": 0.2}},
+      {"id": "d", "text": "Corporate social responsibility and community partnerships", "dimensions": {"S": 0.9, "C": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

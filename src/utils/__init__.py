@@ -50,18 +50,14 @@ from src.utils.exceptions import (
 )
 from src.utils.helpers import (
     generate_random_string,
-    generate_uuid,
-    mask_sensitive_data,
+    generate_unique_id,
     sanitize_string,
-    truncate_string,
-    calculate_percentage,
-    round_to_decimal_places,
-    deep_merge_dicts,
     flatten_dict,
     chunk_list,
-    remove_duplicates,
-    convert_to_snake_case,
-    convert_to_camel_case,
+    calculate_dimension_percentages,
+    get_top_dimensions,
+    validate_dimension_scores,
+    generate_cache_key,
 )
 from src.utils.logger import (
     get_logger,
@@ -134,18 +130,14 @@ __all__ = [
 
     # Helper functions
     "generate_random_string",
-    "generate_uuid",
-    "mask_sensitive_data",
+    "generate_unique_id",
     "sanitize_string",
-    "truncate_string",
-    "calculate_percentage",
-    "round_to_decimal_places",
-    "deep_merge_dicts",
     "flatten_dict",
     "chunk_list",
-    "remove_duplicates",
-    "convert_to_snake_case",
-    "convert_to_camel_case",
+    "calculate_dimension_percentages",
+    "get_top_dimensions",
+    "validate_dimension_scores",
+    "generate_cache_key",
 
     # Logger functions
     "get_logger",

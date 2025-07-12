@@ -1,0 +1,22 @@
+[
+  {
+    "question_text": "How much do you enjoy working with your hands to build or fix things?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Not at all",
+      "max": "Love it!"
+    },
+    "dimensions": ["R"]
+  },
+  {
+    "question_text": "How interested are you in expressing yourself through art, music, or creative writing?",
+    "scale_min": 1,
+    "scale_max": 10,
+    "scale_labels": {
+      "min": "Not interested",
+      "max": "Very interested"
+    },
+    "dimensions": ["A"]
+  }
+]

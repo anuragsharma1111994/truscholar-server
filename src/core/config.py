@@ -439,11 +439,8 @@ def get_settings() -> Settings:
 
     # Setup logging based on settings
     setup_logging(
-        level=settings.LOG_LEVEL,
-        format_type=settings.LOG_FORMAT,
-        log_file=settings.LOG_FILE_PATH,
-        max_bytes=settings.LOG_FILE_MAX_SIZE,
-        backup_count=settings.LOG_FILE_BACKUP_COUNT,
+        environment=settings.APP_ENV,
+        log_level=settings.LOG_LEVEL
     )
 
     return settings

@@ -1,0 +1,32 @@
+[
+  {
+    "question_text": "What aspect of your career gives you the most satisfaction?",
+    "options": [
+      {"id": "a", "text": "Building or creating tangible results", "dimensions": {"R": 1.0}},
+      {"id": "b", "text": "Expressing creativity and innovation", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Solving complex analytical problems", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Making a difference in people's lives", "dimensions": {"S": 1.0}}
+    ],
+    "dimensions": ["R", "A", "I", "S"]
+  },
+  {
+    "question_text": "Which leadership style best describes you?",
+    "options": [
+      {"id": "a", "text": "Hands-on leader who works alongside the team", "dimensions": {"R": 0.6, "S": 0.4}},
+      {"id": "b", "text": "Visionary leader who inspires creativity", "dimensions": {"A": 0.5, "E": 0.5}},
+      {"id": "c", "text": "Strategic leader focused on data and analysis", "dimensions": {"I": 0.6, "E": 0.4}},
+      {"id": "d", "text": "Process-oriented leader who ensures efficiency", "dimensions": {"C": 0.8, "E": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "What type of career advancement appeals to you most?",
+    "options": [
+      {"id": "a", "text": "Technical expertise and specialization", "dimensions": {"R": 0.5, "I": 0.5}},
+      {"id": "b", "text": "Executive leadership and business strategy", "dimensions": {"E": 0.9, "C": 0.1}},
+      {"id": "c", "text": "Creative director or artistic leadership", "dimensions": {"A": 0.8, "E": 0.2}},
+      {"id": "d", "text": "Community impact and social leadership", "dimensions": {"S": 0.8, "E": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

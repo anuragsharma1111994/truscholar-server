@@ -109,6 +109,15 @@ async def get_redis() -> Redis:
     return redis
 
 
+async def get_cache():
+    """Get cache client instance (alias for get_redis).
+
+    Yields:
+        Redis: Redis client instance
+    """
+    return await get_redis()
+
+
 # Authentication dependencies
 async def get_current_user_optional(
     request: Request,

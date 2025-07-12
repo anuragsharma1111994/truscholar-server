@@ -27,7 +27,7 @@ from src.utils.exceptions import (
     ResourceNotFoundError,
     ValidationError,
 )
-from src.utils.helpers import mask_phone_number
+from src.utils.helper import mask_phone_number
 from src.utils.logger import get_logger
 from src.utils.validators import validate_age, validate_email, validate_name, validate_phone
 

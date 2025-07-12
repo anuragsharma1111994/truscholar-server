@@ -1,0 +1,28 @@
+[
+  {
+    "question_text": "Which internship opportunities would you apply for? (Select all that interest you)",
+    "scenario": "Various companies are offering summer internships. You can apply to multiple positions.",
+    "options": [
+      {"id": "a", "text": "Engineering or technical development intern", "dimensions": {"R": 0.8, "I": 0.2}},
+      {"id": "b", "text": "Creative design or content creation intern", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Research or data science intern", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Human resources or community engagement intern", "dimensions": {"S": 0.9, "C": 0.1}},
+      {"id": "e", "text": "Business development or sales intern", "dimensions": {"E": 1.0}},
+      {"id": "f", "text": "Operations or project management intern", "dimensions": {"C": 0.8, "E": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "Which professional development workshops would you attend? (Select all)",
+    "scenario": "Your university is offering free workshops to help students prepare for their careers.",
+    "options": [
+      {"id": "a", "text": "Technical skills and certification prep", "dimensions": {"R": 0.7, "C": 0.3}},
+      {"id": "b", "text": "Creative portfolio development", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Research methodology and analytics", "dimensions": {"I": 0.9, "C": 0.1}},
+      {"id": "d", "text": "Communication and counseling skills", "dimensions": {"S": 1.0}},
+      {"id": "e", "text": "Leadership and entrepreneurship", "dimensions": {"E": 1.0}},
+      {"id": "f", "text": "Financial planning and administration", "dimensions": {"C": 0.9, "I": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

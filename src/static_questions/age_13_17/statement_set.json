@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Rate how much you agree with these statements about yourself:",
+    "statements": [
+      {"id": 1, "text": "I enjoy working with tools and building things", "dimension": "R"},
+      {"id": 2, "text": "I like expressing myself through art, music, or writing", "dimension": "A"},
+      {"id": 3, "text": "I'm curious about how things work and enjoy learning new facts", "dimension": "I"},
+      {"id": 4, "text": "I feel good when I help others with their problems", "dimension": "S"},
+      {"id": 5, "text": "I like being the leader in group activities", "dimension": "E"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E"]
+  },
+  {
+    "question_text": "How well do these statements describe you?",
+    "statements": [
+      {"id": 1, "text": "I prefer hands-on activities over reading", "dimension": "R"},
+      {"id": 2, "text": "I often come up with creative ideas", "dimension": "A"},
+      {"id": 3, "text": "I enjoy solving complex problems", "dimension": "I"},
+      {"id": 4, "text": "I'm good at understanding how others feel", "dimension": "S"},
+      {"id": 5, "text": "I like organizing and planning things", "dimension": "C"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "C"]
+  }
+]

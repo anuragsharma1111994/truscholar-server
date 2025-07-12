@@ -1,0 +1,32 @@
+[
+  {
+    "question_text": "Which of these activities sounds most interesting to you?",
+    "options": [
+      {"id": "a", "text": "Building or fixing things with your hands", "dimensions": {"R": 1.0}},
+      {"id": "b", "text": "Drawing, painting, or creating music", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Solving puzzles or doing science experiments", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Helping friends or volunteering", "dimensions": {"S": 1.0}}
+    ],
+    "dimensions": ["R", "A", "I", "S"]
+  },
+  {
+    "question_text": "If you had to choose a school project, which would you pick?",
+    "options": [
+      {"id": "a", "text": "Building a model or robot", "dimensions": {"R": 0.8, "I": 0.2}},
+      {"id": "b", "text": "Creating a presentation to persuade others", "dimensions": {"E": 0.8, "S": 0.2}},
+      {"id": "c", "text": "Organizing and managing a school event", "dimensions": {"C": 0.7, "E": 0.3}},
+      {"id": "d", "text": "Designing a poster or video", "dimensions": {"A": 0.9, "I": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "Which type of club or activity would you most likely join?",
+    "options": [
+      {"id": "a", "text": "Robotics or engineering club", "dimensions": {"R": 0.6, "I": 0.4}},
+      {"id": "b", "text": "Drama, art, or music club", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Debate team or student government", "dimensions": {"E": 0.8, "S": 0.2}},
+      {"id": "d", "text": "Math club or science olympiad", "dimensions": {"I": 0.9, "C": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

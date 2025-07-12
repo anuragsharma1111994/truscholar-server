@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Your class is planning a fundraiser. What role would you prefer?",
+    "scenario": "The school needs to raise money for new equipment. Your class is organizing a big fundraising event with different teams handling various aspects.",
+    "options": [
+      {"id": "a", "text": "Building and setting up the booths and decorations", "dimensions": {"R": 0.9, "C": 0.1}},
+      {"id": "b", "text": "Creating posters and designing the event theme", "dimensions": {"A": 0.9, "E": 0.1}},
+      {"id": "c", "text": "Calculating costs and managing the budget", "dimensions": {"I": 0.5, "C": 0.5}},
+      {"id": "d", "text": "Greeting visitors and explaining the cause", "dimensions": {"S": 0.8, "E": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "You're working on a group science project. What part interests you most?",
+    "scenario": "Your group needs to create a presentation about renewable energy for the science fair.",
+    "options": [
+      {"id": "a", "text": "Building a working model of a solar panel or windmill", "dimensions": {"R": 0.8, "I": 0.2}},
+      {"id": "b", "text": "Researching and analyzing different energy sources", "dimensions": {"I": 0.9, "C": 0.1}},
+      {"id": "c", "text": "Presenting the findings to judges and visitors", "dimensions": {"E": 0.7, "S": 0.3}},
+      {"id": "d", "text": "Creating visual displays and infographics", "dimensions": {"A": 0.8, "C": 0.2}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

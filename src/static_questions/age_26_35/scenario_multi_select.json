@@ -1,0 +1,28 @@
+[
+  {
+    "question_text": "Which professional development goals are priorities for you? (Select all)",
+    "scenario": "You're planning your career development for the next 5 years.",
+    "options": [
+      {"id": "a", "text": "Advanced technical certifications and expertise", "dimensions": {"R": 0.7, "I": 0.3}},
+      {"id": "b", "text": "Creative leadership and innovation management", "dimensions": {"A": 0.8, "E": 0.2}},
+      {"id": "c", "text": "Research expertise and thought leadership", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Executive coaching and people development", "dimensions": {"S": 0.7, "E": 0.3}},
+      {"id": "e", "text": "Entrepreneurship and business ownership", "dimensions": {"E": 1.0}},
+      {"id": "f", "text": "Process optimization and operational excellence", "dimensions": {"C": 0.9, "R": 0.1}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  },
+  {
+    "question_text": "Which work-life balance elements are important to you? (Select all)",
+    "scenario": "You're evaluating what matters most in your career at this stage of life.",
+    "options": [
+      {"id": "a", "text": "Hands-on project work that produces tangible results", "dimensions": {"R": 1.0}},
+      {"id": "b", "text": "Time for creative pursuits and self-expression", "dimensions": {"A": 1.0}},
+      {"id": "c", "text": "Intellectual stimulation and continuous learning", "dimensions": {"I": 1.0}},
+      {"id": "d", "text": "Meaningful connections and community impact", "dimensions": {"S": 1.0}},
+      {"id": "e", "text": "Leadership opportunities and career growth", "dimensions": {"E": 1.0}},
+      {"id": "f", "text": "Stability and well-structured responsibilities", "dimensions": {"C": 1.0}}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E", "C"]
+  }
+]

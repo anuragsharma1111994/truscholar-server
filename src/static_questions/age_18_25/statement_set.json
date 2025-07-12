@@ -1,0 +1,24 @@
+[
+  {
+    "question_text": "Rate your agreement with these career-related statements:",
+    "statements": [
+      {"id": 1, "text": "I prefer working with tools, machines, or physical materials", "dimension": "R"},
+      {"id": 2, "text": "I need creative freedom in my work", "dimension": "A"},
+      {"id": 3, "text": "I enjoy analyzing data and solving complex problems", "dimension": "I"},
+      {"id": 4, "text": "Making a positive impact on people's lives is important to me", "dimension": "S"},
+      {"id": 5, "text": "I'm comfortable taking risks and leading others", "dimension": "E"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "E"]
+  },
+  {
+    "question_text": "How well do these work preferences describe you?",
+    "statements": [
+      {"id": 1, "text": "I prefer practical, hands-on tasks over theoretical work", "dimension": "R"},
+      {"id": 2, "text": "I value self-expression and originality in my work", "dimension": "A"},
+      {"id": 3, "text": "I enjoy research and intellectual challenges", "dimension": "I"},
+      {"id": 4, "text": "I'm drawn to careers that involve helping or teaching others", "dimension": "S"},
+      {"id": 5, "text": "I like structured environments with clear procedures", "dimension": "C"}
+    ],
+    "dimensions": ["R", "A", "I", "S", "C"]
+  }
+]

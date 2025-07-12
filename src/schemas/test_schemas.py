@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field, field_validator
 
 from src.schemas.base import BaseResponse
-from src.utils.constants import AgeGroup, QuestionType, TestStatus
+from src.utils.constants import AgeGroup, QuestionType, TestStatus, RaisecDimension
 
 
 # Request Schemas
@@ -137,15 +137,138 @@ class AnswerResponse(BaseModel):
     submitted_at: str
 
 
+class DimensionScoreResponse(BaseModel):
+    """Response schema for individual dimension scores."""
+    
+    dimension: str
+    raw_score: float = Field(..., ge=0, description="Raw dimensional score")
+    weighted_score: float = Field(..., ge=0, description="Score after applying weights")
+    normalized_score: float = Field(..., ge=0, le=100, description="Normalized score (0-100)")
+    confidence_level: float = Field(..., ge=0, le=100, description="Confidence in this score")
+    question_count: int = Field(..., ge=0, description="Number of questions contributing")
+    consistency_rating: str = Field(..., description="Consistency level (high/medium/low)")
+
+
 class TestScoresResponse(BaseModel):
-    """Response schema for test scores."""
+    """Response schema for comprehensive test scores."""
 
     test_id: str
-    raisec_code: str
-    dimension_scores: Dict[str, Dict[str, Any]]
-    total_score: float
-    consistency_score: float
-    scored_at: str
+    user_id: str
+    raisec_code: str = Field(..., description="Primary RAISEC code (e.g., 'RIA')")
+    raisec_profile: str = Field(..., description="Full RAISEC profile description")
+    
+    # Individual dimension scores
+    dimension_scores: Dict[str, DimensionScoreResponse] = Field(
+        ..., description="Scores for each RAISEC dimension"
+    )
+    
+    # Overall scoring metrics
+    total_score: float = Field(..., ge=0, description="Total composite score")
+    average_score: float = Field(..., ge=0, le=100, description="Average normalized score")
+    consistency_score: float = Field(..., ge=0, le=100, description="Overall consistency rating")
+    confidence_score: float = Field(..., ge=0, le=100, description="Overall confidence in results")
+    
+    # Test completion metrics
+    completion_percentage: float = Field(..., ge=0, le=100, description="Percentage of test completed")
+    questions_answered: int = Field(..., ge=0, description="Number of questions answered")
+    total_questions: int = Field(..., ge=0, description="Total questions in test")
+    
+    # Timing and behavior analysis
+    total_time_minutes: float = Field(..., ge=0, description="Total time spent on test")
+    average_time_per_question: float = Field(..., ge=0, description="Average seconds per question")
+    timing_consistency: str = Field(..., description="Timing pattern analysis")
+    
+    # Scoring metadata
+    scoring_version: str = Field(default="v2.0", description="Version of scoring algorithm used")
+    scored_at: str = Field(..., description="When scoring was completed")
+    scoring_notes: List[str] = Field(default_factory=list, description="Additional scoring notes")
+    
+    # Validity and reliability indicators
+    validity_flags: List[str] = Field(default_factory=list, description="Any validity concerns")
+    reliability_score: float = Field(..., ge=0, le=100, description="Test reliability indicator")
+
+
+class ScoringAnalyticsResponse(BaseModel):
+    """Response schema for detailed scoring analytics."""
+    
+    test_id: str
+    
+    # Answer pattern analysis
+    answer_patterns: Dict[str, Any] = Field(
+        default_factory=dict, 
+        description="Patterns in user responses"
+    )
+    
+    # Time-based analysis
+    timing_analysis: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Detailed timing behavior analysis"
+    )
+    
+    # Consistency analysis
+    consistency_metrics: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Various consistency measurements"
+    )
+    
+    # Question type performance
+    performance_by_type: Dict[str, Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="Performance breakdown by question type"
+    )
+    
+    # Dimensional insights
+    dimensional_insights: Dict[str, Dict[str, Any]] = Field(
+        default_factory=dict,
+        description="Insights for each RAISEC dimension"
+    )
+    
+    # Recommendations
+    recommendations: List[str] = Field(
+        default_factory=list,
+        description="Recommendations based on analysis"
+    )
+    
+    # Confidence indicators
+    confidence_indicators: Dict[str, float] = Field(
+        default_factory=dict,
+        description="Confidence levels for different aspects"
+    )
+
+
+class ScoringExplanationResponse(BaseModel):
+    """Response schema for scoring explanation."""
+    
+    test_id: str
+    explanation_type: str = Field(..., description="Type of explanation (summary/detailed)")
+    
+    # Overall explanation
+    overall_summary: str = Field(..., description="High-level summary of results")
+    raisec_code_explanation: str = Field(..., description="Explanation of assigned RAISEC code")
+    
+    # Dimension explanations
+    dimension_explanations: Dict[str, str] = Field(
+        default_factory=dict,
+        description="Explanation for each dimension score"
+    )
+    
+    # Strengths and development areas
+    key_strengths: List[str] = Field(default_factory=list, description="Identified strengths")
+    development_areas: List[str] = Field(default_factory=list, description="Areas for development")
+    
+    # Scoring methodology
+    methodology_notes: List[str] = Field(
+        default_factory=list, 
+        description="Notes about scoring methodology"
+    )
+    
+    # Caveats and limitations
+    caveats: List[str] = Field(
+        default_factory=list,
+        description="Important caveats about the results"
+    )
+    
+    generated_at: str = Field(..., description="When explanation was generated")
 
 
 class CareerInterestsResponse(BaseModel):
@@ -204,6 +327,39 @@ class ScoringContext(BaseModel):
     answers: List[Dict[str, Any]]
     age_group: AgeGroup
     question_distribution: Dict[str, int]
+    user_timezone: Optional[str] = None
+    scoring_parameters: Dict[str, Any] = Field(default_factory=dict)
+
+
+class ScoringRequest(BaseModel):
+    """Request schema for test scoring."""
+    
+    test_id: str = Field(..., description="ID of test to score")
+    force_rescore: bool = Field(default=False, description="Force rescoring even if already scored")
+    include_analytics: bool = Field(default=True, description="Include detailed analytics in response")
+    scoring_version: Optional[str] = Field(default=None, description="Specific scoring version to use")
+    explanation_level: str = Field(default="summary", description="Level of explanation (summary/detailed)")
+
+
+class ScoringConfigurationUpdate(BaseModel):
+    """Schema for updating scoring configuration."""
+    
+    question_weights: Optional[Dict[str, float]] = Field(
+        default=None, 
+        description="Updated weights for question types"
+    )
+    time_adjustment_factors: Optional[Dict[str, float]] = Field(
+        default=None,
+        description="Updated time adjustment factors"
+    )
+    consistency_thresholds: Optional[Dict[str, float]] = Field(
+        default=None,
+        description="Updated consistency analysis thresholds"
+    )
+    confidence_parameters: Optional[Dict[str, Any]] = Field(
+        default=None,
+        description="Updated confidence calculation parameters"
+    )
 
 
 class TestValidation(BaseModel):
@@ -292,17 +448,22 @@ class TestRequestValidator:
 __all__ = [
     # Request schemas
     "TestStartRequest",
-    "AnswerSubmissionRequest",
+    "AnswerSubmissionRequest", 
     "TestSubmissionRequest",
     "CareerInterestsRequest",
     "ValidationQuestionsRequest",
+    "ScoringRequest",
+    "ScoringConfigurationUpdate",
 
     # Response schemas
     "QuestionResponse",
     "TestProgressResponse",
     "TestResponse",
     "AnswerResponse",
+    "DimensionScoreResponse",
     "TestScoresResponse",
+    "ScoringAnalyticsResponse",
+    "ScoringExplanationResponse",
     "CareerInterestsResponse",
     "ValidationQuestionsResponse",
     "TestSummaryResponse",
